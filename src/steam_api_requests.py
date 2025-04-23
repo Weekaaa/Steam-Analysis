@@ -1,56 +1,14 @@
 from collections import deque
 import os
-import sys
-
 import time
-# from datetime import datetime
-
 import requests
-
-# import json
-
-import pickle
 from pathlib import Path
-
 import traceback
-import logging
-from pathlib import Path
+
+import log
+from checkpoints import checkLatestCheckpoints, saveCheckpoint, loadPickle
 
 
-# Boilerplate function to Configure logging
-def setup_logging(log_dir="logs"):
-        # Logger Usage
-        # logger = setup_logging()
-        # logger.error("This is an error message")
-        # logger.warning("This is a warning")
-        # logger.info("This is informational")
-
-    log_dir = project_root_path / "logs" # Log directory at the root of the project
-    Path(log_dir).mkdir(exist_ok=True)
-    
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)  # Capture all levels
-    
-    # Formatting
-    formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        datefmt='%d-%m-%Y %H:%M:%S'
-    )
-    
-    # Console (stderr) handler
-    console_handler = logging.StreamHandler(sys.stderr)
-    # console_handler.setLevel(logging.WARNING)  # We won't need warnings
-    console_handler.setFormatter(formatter)
-    
-    # File handler
-    file_handler = logging.FileHandler(f"{log_dir}/steam_api.log")
-    file_handler.setLevel(logging.DEBUG)  # All levels to file
-    file_handler.setFormatter(formatter)
-    
-    logger.addHandler(console_handler)
-    logger.addHandler(file_handler)
-    
-    return logger
 
 
 # Use Steam's ISteamApps API to collect:
@@ -60,6 +18,7 @@ def setup_logging(log_dir="logs"):
 def requestSteamAppsIDs():
     req = requests.get("https://api.steampowered.com/ISteamApps/GetAppList/v2/")
 
+    # 200 is the OK code for Http requests
     if (req.status_code != 200):
         print("Failed to get all games on steam.")
         return
@@ -95,78 +54,46 @@ def requestSteamAppsIDs():
 
 
 
-def saveCheckpoint(apps_dict):
-
-    # check if file exists, create it if it does not
-    if not checkpoint_folder.exists():
-        checkpoint_folder.mkdir(parents=True)
-
-
-    save_path = checkpoint_folder.joinpath(
-        'apps_dict' + f'-ckpt-fin.p'
-    ).resolve()
-
-    savePickle(save_path, apps_dict)
-    logger.info(f'Successfully create app_dict checkpoint: {save_path}')
-
-
-    print()
-
-
-def loadPickle(path_to_load:Path) -> dict:
-    obj = pickle.load(open(path_to_load, "rb"))
-    
-    return obj
-
-def savePickle(path_to_save:Path, obj):
-    with open(path_to_save, 'wb') as handle:
-        pickle.dump(obj, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-def checkLatestCheckpoints():
-    # app_dict
-    all_pkl = []
-
-    checkpoint_folder = project_root_path / "data" # Log directory at the root of the project
-    # get all pickle files in the checkpoint folder    
-    for root, _, files in os.walk(checkpoint_folder):
-        all_pkl = list(map(lambda f: Path(root, f), files))
-        all_pkl = [p for p in all_pkl if p.suffix == '.p']
-        break
-            
-    # create a list to store all the checkpoint files
-    # then sort them
-    # the latest checkpoint file for each of the object is the last element in each of the lists
-    apps_dict_ckpt_files = [f for f in all_pkl if 'apps_dict' in f.name and "ckpt" in f.name]
-
-    apps_dict_ckpt_files.sort()
-
-    latest_apps_dict_ckpt_path = apps_dict_ckpt_files[-1] if apps_dict_ckpt_files else None
-
-    return latest_apps_dict_ckpt_path
 
 
 def main():
+    # To avoid creating a class with these variables and
+    # passing them in all functions, just define them as global.
     global logger
     global project_root_path
-    global checkpoint_folder
-    project_root_path = Path(__file__).parent.parent
-    checkpoint_folder = project_root_path / "data" # Log directory at the root of the project
-    logger = setup_logging()
+    global data_folder
+
+    # check if file exists, create it if it does not
+    project_root_path = Path(__file__).parent.parent # Root Directory of the Project
+
+    # Create logger
+    logger = log.setup_logging(project_root_path)
+    
+
     logger.info("Started Steam scraper process", os.getpid())
 
-    fd  = open(project_root_path/'data' / 'data.txt', 'w+')
+
+    data_folder = project_root_path / "data" # Log directory at the root of the project
+    if not data_folder.exists():
+        data_folder.mkdir(parents=True)
+        logger.info(f"Created {data_folder}")
+
+    # Temporary File To Get a sample of the Data and it's structure
+    fd  = open(project_root_path/'data' / 'data.txt', 'w+') 
 
 
-    apps_dict = {}
+    apps_dict = {} 
 
-    all_app_ids = requestSteamAppsIDs()
+    all_app_ids = requestSteamAppsIDs() # returns a list of IDs of All Games
+
 
     logger.info(f'Total number of apps on steam: {len(all_app_ids)}')
 
 
-    logger.info(f'Checkpoint folder: {checkpoint_folder}')
 
-    latest_apps_dict_ckpt_path = checkLatestCheckpoints()
+    logger.info(f'Checkpoint folder: {data_folder}')
+
+    latest_apps_dict_ckpt_path = checkLatestCheckpoints(data_folder)
 
     if latest_apps_dict_ckpt_path:
         apps_dict = loadPickle(latest_apps_dict_ckpt_path)
@@ -177,6 +104,7 @@ def main():
     # remove app_ids that already scrapped or excluded or error
     all_app_ids = set(all_app_ids) \
             - set(map(int, set(apps_dict.keys()))) \
+            # - set(map(int, set(apps_dict.keys()))) \
         
     # first get remaining apps
     apps_remaining_deque = deque(set(all_app_ids))
@@ -213,7 +141,7 @@ def main():
             else:
                 continue
                 
-        except:
+        except Exception:
             logger.info(f"Error in decoding app details request. App id: {appid}")
 
             traceback.print_exc(limit=5)
@@ -235,16 +163,15 @@ def main():
 
         i += 1
         # for each 2500, save a checkpoint
-        if i >= 2500:
-        # if i >= 25: # 25 for texting
-            saveCheckpoint(apps_dict)
+        # if i >= 2500:
+        if i >= 25: # 25 for testing
+            saveCheckpoint(apps_dict, data_folder, logger)
             i = 0
 
     # save checkpoints at the end
-    saveCheckpoint(apps_dict)
+    saveCheckpoint(apps_dict, data_folder, logger)
 
     logger.info(f"Total number of valid apps: {len(apps_dict)}")
-
     logger.info('Successful run. Program Terminates.')
 
 if __name__ == '__main__':

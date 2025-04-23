@@ -1,3 +1,8 @@
 venv
+src/__pycache__/*
+
 data/*
 !data/.gitkeep
+
+log/*
+!log/.gitkeep

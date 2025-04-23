@@ -898,3 +898,408 @@
 23-04-2025 17:29:42 - __main__ - INFO - Successfully get content of App ID: 1048840
 23-04-2025 17:29:43 - __main__ - INFO - Successfully get content of App ID: 3670280
 23-04-2025 17:29:43 - __main__ - INFO - Successfully get content of App ID: 2621710
+23-04-2025 20:42:54 - __main__ - INFO - Total number of apps on steam: 243454
+23-04-2025 20:42:54 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:02:29 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:02:29 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:03:04 - __main__ - INFO - Total number of apps on steam: 243463
+23-04-2025 21:03:04 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:03:30 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:03:30 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:04:57 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:04:57 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:07:25 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:07:25 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:07:25 - __main__ - INFO - Number of apps in apps_dict: 50
+23-04-2025 21:07:26 - __main__ - INFO - Successfully get content of App ID: 1572870
+23-04-2025 21:07:26 - __main__ - INFO - No successful response.1572880 excluded
+23-04-2025 21:07:26 - __main__ - INFO - No successful response.1572890 excluded
+23-04-2025 21:07:26 - __main__ - INFO - No successful response.1572891 excluded
+23-04-2025 21:07:27 - __main__ - INFO - No successful response.1572892 excluded
+23-04-2025 21:07:27 - __main__ - INFO - No successful response.1572893 excluded
+23-04-2025 21:07:27 - __main__ - INFO - No successful response.1572894 excluded
+23-04-2025 21:07:27 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 21:07:28 - __main__ - INFO - No successful response.1572910 excluded
+23-04-2025 21:07:28 - __main__ - INFO - Successfully get content of App ID: 1572920
+23-04-2025 21:07:28 - __main__ - INFO - Successfully get content of App ID: 1572930
+23-04-2025 21:07:28 - __main__ - INFO - No successful response.1572940 excluded
+23-04-2025 21:07:28 - __main__ - INFO - No successful response.1572950 excluded
+23-04-2025 21:07:29 - __main__ - INFO - No successful response.1572960 excluded
+23-04-2025 21:07:29 - __main__ - INFO - Successfully get content of App ID: 1572970
+23-04-2025 21:07:29 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 21:07:29 - __main__ - INFO - Successfully get content of App ID: 1572990
+23-04-2025 21:07:30 - __main__ - INFO - Successfully get content of App ID: 1573000
+23-04-2025 21:07:30 - __main__ - INFO - Successfully get content of App ID: 1573010
+23-04-2025 21:07:30 - __main__ - INFO - No successful response.1573020 excluded
+23-04-2025 21:07:30 - __main__ - INFO - Successfully get content of App ID: 1573030
+23-04-2025 21:07:30 - __main__ - INFO - Successfully get content of App ID: 1573040
+23-04-2025 21:07:31 - __main__ - INFO - Successfully get content of App ID: 1573050
+23-04-2025 21:07:31 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 21:07:31 - __main__ - INFO - No successful response.1573060 excluded
+23-04-2025 21:07:31 - __main__ - INFO - Successfully get content of App ID: 3145930
+23-04-2025 21:07:32 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 21:09:18 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:09:18 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:09:18 - __main__ - INFO - Number of apps in apps_dict: 50
+23-04-2025 21:09:18 - __main__ - INFO - Successfully get content of App ID: 1572870
+23-04-2025 21:09:19 - __main__ - INFO - No successful response.1572880 excluded
+23-04-2025 21:09:19 - __main__ - INFO - No successful response.1572890 excluded
+23-04-2025 21:09:19 - __main__ - INFO - No successful response.1572891 excluded
+23-04-2025 21:09:19 - __main__ - INFO - No successful response.1572892 excluded
+23-04-2025 21:09:19 - __main__ - INFO - No successful response.1572893 excluded
+23-04-2025 21:09:20 - __main__ - INFO - No successful response.1572894 excluded
+23-04-2025 21:09:20 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 21:09:20 - __main__ - INFO - No successful response.1572910 excluded
+23-04-2025 21:09:20 - __main__ - INFO - Successfully get content of App ID: 1572920
+23-04-2025 21:09:20 - __main__ - INFO - Successfully get content of App ID: 1572930
+23-04-2025 21:09:21 - __main__ - INFO - No successful response.1572940 excluded
+23-04-2025 21:09:21 - __main__ - INFO - No successful response.1572950 excluded
+23-04-2025 21:09:21 - __main__ - INFO - No successful response.1572960 excluded
+23-04-2025 21:09:21 - __main__ - INFO - Successfully get content of App ID: 1572970
+23-04-2025 21:09:21 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 21:09:22 - __main__ - INFO - Successfully get content of App ID: 1572990
+23-04-2025 21:09:22 - __main__ - INFO - Successfully get content of App ID: 1573000
+23-04-2025 21:09:22 - __main__ - INFO - Successfully get content of App ID: 1573010
+23-04-2025 21:09:22 - __main__ - INFO - No successful response.1573020 excluded
+23-04-2025 21:09:23 - __main__ - INFO - Successfully get content of App ID: 1573030
+23-04-2025 21:09:23 - __main__ - INFO - Successfully get content of App ID: 1573040
+23-04-2025 21:09:23 - __main__ - INFO - Successfully get content of App ID: 1573050
+23-04-2025 21:09:23 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 21:09:24 - __main__ - INFO - No successful response.1573060 excluded
+23-04-2025 21:09:24 - __main__ - INFO - Successfully get content of App ID: 3145930
+23-04-2025 21:09:24 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 21:09:24 - __main__ - INFO - Successfully get content of App ID: 1573070
+23-04-2025 21:09:24 - __main__ - INFO - No successful response.2621650 excluded
+23-04-2025 21:09:25 - __main__ - INFO - Successfully get content of App ID: 3145940
+23-04-2025 21:09:25 - __main__ - INFO - No successful response.1048790 excluded
+23-04-2025 21:09:25 - __main__ - INFO - No successful response.1573080 excluded
+23-04-2025 21:09:25 - __main__ - INFO - No successful response.219 excluded
+23-04-2025 21:09:25 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 21:09:26 - __main__ - INFO - Successfully get content of App ID: 220
+23-04-2025 21:09:26 - __main__ - INFO - Successfully get content of App ID: 3670240
+23-04-2025 21:09:26 - __main__ - INFO - Successfully get content of App ID: 1573090
+23-04-2025 21:09:26 - __main__ - INFO - Successfully get content of App ID: 2621670
+23-04-2025 21:09:26 - __main__ - INFO - Successfully get content of App ID: 3145960
+23-04-2025 21:09:27 - __main__ - INFO - Successfully get content of App ID: 1573100
+23-04-2025 21:09:27 - __main__ - INFO - Successfully get content of App ID: 2621680
+23-04-2025 21:09:27 - __main__ - INFO - Successfully get content of App ID: 240
+23-04-2025 21:09:27 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 21:09:28 - __main__ - INFO - Successfully get content of App ID: 3670260
+23-04-2025 21:09:28 - __main__ - INFO - Successfully get content of App ID: 1573110
+23-04-2025 21:09:28 - __main__ - INFO - Successfully get content of App ID: 2621690
+23-04-2025 21:09:28 - __main__ - INFO - Successfully get content of App ID: 3145980
+23-04-2025 21:09:28 - __main__ - INFO - Successfully create app_dict checkpoint: /home/fahmy/Code/SteamAnalysis/data/apps_dict-ckpt-fin.p
+23-04-2025 21:09:29 - __main__ - INFO - Successfully get content of App ID: 3670270
+23-04-2025 21:09:29 - __main__ - INFO - No successful response.1048830 excluded
+23-04-2025 21:09:29 - __main__ - INFO - No successful response.1573120 excluded
+23-04-2025 21:09:29 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 21:09:30 - __main__ - INFO - No successful response.3145990 excluded
+23-04-2025 21:09:30 - __main__ - INFO - No successful response.1048840 excluded
+23-04-2025 21:09:30 - __main__ - INFO - Successfully get content of App ID: 3670280
+23-04-2025 21:09:30 - __main__ - INFO - Successfully get content of App ID: 1573130
+23-04-2025 21:09:30 - __main__ - INFO - Successfully get content of App ID: 2621710
+23-04-2025 21:09:31 - __main__ - INFO - Successfully get content of App ID: 3146000
+23-04-2025 21:09:31 - __main__ - INFO - Successfully get content of App ID: 3670290
+23-04-2025 21:09:31 - __main__ - INFO - No successful response.1048850 excluded
+23-04-2025 21:09:31 - __main__ - INFO - Successfully get content of App ID: 1573140
+23-04-2025 21:09:31 - __main__ - INFO - Successfully get content of App ID: 1573141
+23-04-2025 21:09:32 - __main__ - INFO - Successfully get content of App ID: 2621720
+23-04-2025 21:09:32 - __main__ - INFO - Error in decoding app details request. App id: 3146010
+23-04-2025 21:09:32 - __main__ - INFO - No successful response.3146010 excluded
+23-04-2025 21:09:33 - __main__ - INFO - Successfully get content of App ID: 1048860
+23-04-2025 21:09:33 - __main__ - INFO - Successfully get content of App ID: 3670300
+23-04-2025 21:09:33 - __main__ - INFO - Successfully get content of App ID: 2621730
+23-04-2025 21:09:33 - __main__ - INFO - Successfully get content of App ID: 3146020
+23-04-2025 21:09:33 - __main__ - INFO - Successfully get content of App ID: 3670310
+23-04-2025 21:09:33 - __main__ - INFO - Error in decoding app details request. App id: 1048870
+23-04-2025 21:09:33 - __main__ - INFO - No successful response.1048870 excluded
+23-04-2025 21:09:34 - __main__ - INFO - Error in decoding app details request. App id: 1048871
+23-04-2025 21:09:34 - __main__ - INFO - No successful response.1048871 excluded
+23-04-2025 21:09:34 - __main__ - INFO - Successfully get content of App ID: 1048872
+23-04-2025 21:09:34 - __main__ - INFO - Error in decoding app details request. App id: 1048873
+23-04-2025 21:09:34 - __main__ - INFO - No successful response.1048873 excluded
+23-04-2025 21:09:34 - __main__ - INFO - Error in decoding app details request. App id: 1048874
+23-04-2025 21:09:34 - __main__ - INFO - No successful response.1048874 excluded
+23-04-2025 21:09:34 - __main__ - INFO - Error in decoding app details request. App id: 2621740
+23-04-2025 21:09:34 - __main__ - INFO - No successful response.2621740 excluded
+23-04-2025 21:09:35 - __main__ - INFO - Successfully get content of App ID: 1048875
+23-04-2025 21:09:35 - __main__ - INFO - Successfully get content of App ID: 1048876
+23-04-2025 21:09:35 - __main__ - INFO - Successfully get content of App ID: 1048877
+23-04-2025 21:09:35 - __main__ - INFO - Successfully get content of App ID: 3670320
+23-04-2025 21:09:35 - __main__ - INFO - Successfully get content of App ID: 1048878
+23-04-2025 21:09:36 - __main__ - INFO - Successfully get content of App ID: 1048879
+23-04-2025 21:09:36 - __main__ - INFO - No successful response.1048880 excluded
+23-04-2025 21:09:36 - __main__ - INFO - No successful response.1573170 excluded
+23-04-2025 21:10:05 - __main__ - INFO - Total number of apps on steam: 243457
+23-04-2025 21:10:05 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:10:05 - __main__ - INFO - Number of apps in apps_dict: 75
+23-04-2025 21:10:05 - __main__ - INFO - No successful response.1572880 excluded
+23-04-2025 21:10:05 - __main__ - INFO - No successful response.1572890 excluded
+23-04-2025 21:10:05 - __main__ - INFO - No successful response.1572891 excluded
+23-04-2025 21:10:05 - __main__ - INFO - No successful response.1572892 excluded
+23-04-2025 21:10:06 - __main__ - INFO - No successful response.1572893 excluded
+23-04-2025 21:10:06 - __main__ - INFO - No successful response.1572894 excluded
+23-04-2025 21:10:06 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 21:10:06 - __main__ - INFO - No successful response.1572910 excluded
+23-04-2025 21:10:06 - __main__ - INFO - No successful response.1572940 excluded
+23-04-2025 21:10:07 - __main__ - INFO - No successful response.1572950 excluded
+23-04-2025 21:10:07 - __main__ - INFO - No successful response.1572960 excluded
+23-04-2025 21:10:07 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 21:10:07 - __main__ - INFO - No successful response.1573020 excluded
+23-04-2025 21:10:07 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 21:10:08 - __main__ - INFO - No successful response.1573060 excluded
+23-04-2025 21:10:08 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 21:10:08 - __main__ - INFO - No successful response.2621650 excluded
+23-04-2025 21:10:08 - __main__ - INFO - No successful response.1048790 excluded
+23-04-2025 21:10:08 - __main__ - INFO - No successful response.1573080 excluded
+23-04-2025 21:10:09 - __main__ - INFO - No successful response.219 excluded
+23-04-2025 21:10:09 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 21:10:09 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 21:10:10 - __main__ - INFO - Successfully get content of App ID: 3670270
+23-04-2025 21:10:10 - __main__ - INFO - No successful response.1048830 excluded
+23-04-2025 21:10:10 - __main__ - INFO - No successful response.1573120 excluded
+23-04-2025 21:10:10 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 21:10:10 - __main__ - INFO - No successful response.3145990 excluded
+23-04-2025 21:10:11 - __main__ - INFO - No successful response.1048840 excluded
+23-04-2025 21:10:11 - __main__ - INFO - Successfully get content of App ID: 3670280
+23-04-2025 21:10:11 - __main__ - INFO - Successfully get content of App ID: 1573130
+23-04-2025 21:10:11 - __main__ - INFO - Successfully get content of App ID: 2621710
+23-04-2025 21:10:12 - __main__ - INFO - Successfully get content of App ID: 3146000
+23-04-2025 21:10:12 - __main__ - INFO - Successfully get content of App ID: 3670290
+23-04-2025 21:10:12 - __main__ - INFO - No successful response.1048850 excluded
+23-04-2025 21:10:12 - __main__ - INFO - Successfully get content of App ID: 1573140
+23-04-2025 21:10:12 - __main__ - INFO - Successfully get content of App ID: 1573141
+23-04-2025 21:10:13 - __main__ - INFO - Successfully get content of App ID: 2621720
+23-04-2025 21:10:13 - __main__ - INFO - Successfully get content of App ID: 3146010
+23-04-2025 21:10:13 - __main__ - INFO - Successfully get content of App ID: 1048860
+23-04-2025 21:10:13 - __main__ - INFO - Successfully get content of App ID: 3670300
+23-04-2025 21:10:14 - __main__ - INFO - Successfully get content of App ID: 2621730
+23-04-2025 21:10:14 - __main__ - INFO - Successfully get content of App ID: 3146020
+23-04-2025 21:10:14 - __main__ - INFO - Successfully get content of App ID: 3670310
+23-04-2025 21:10:14 - __main__ - INFO - Successfully get content of App ID: 1048870
+23-04-2025 21:10:14 - __main__ - INFO - Successfully get content of App ID: 1048871
+23-04-2025 21:10:15 - __main__ - INFO - Successfully get content of App ID: 1048872
+23-04-2025 21:10:15 - __main__ - INFO - Successfully get content of App ID: 1048873
+23-04-2025 21:10:15 - __main__ - INFO - Successfully get content of App ID: 1048874
+23-04-2025 21:10:15 - __main__ - INFO - Successfully get content of App ID: 2621740
+23-04-2025 21:10:15 - __main__ - INFO - Successfully get content of App ID: 1048875
+23-04-2025 21:10:16 - __main__ - INFO - Successfully get content of App ID: 1048876
+23-04-2025 21:10:16 - __main__ - INFO - Successfully get content of App ID: 1048877
+23-04-2025 21:10:16 - __main__ - INFO - Successfully get content of App ID: 3670320
+23-04-2025 21:10:16 - __main__ - INFO - Successfully create app_dict checkpoint: /home/fahmy/Code/SteamAnalysis/data/apps_dict-ckpt-fin.p
+23-04-2025 21:10:17 - __main__ - INFO - Successfully get content of App ID: 1048878
+23-04-2025 21:10:17 - __main__ - INFO - Successfully get content of App ID: 1048879
+23-04-2025 21:10:17 - __main__ - INFO - No successful response.1048880 excluded
+23-04-2025 21:10:17 - __main__ - INFO - No successful response.1573170 excluded
+23-04-2025 21:10:17 - __main__ - INFO - Successfully get content of App ID: 3146030
+23-04-2025 21:10:18 - __main__ - INFO - Successfully get content of App ID: 2621750
+23-04-2025 21:10:18 - __main__ - INFO - No successful response.3146040 excluded
+23-04-2025 21:10:18 - __main__ - INFO - No successful response.1048890 excluded
+23-04-2025 21:10:18 - __main__ - INFO - No successful response.1573180 excluded
+23-04-2025 21:10:18 - __main__ - INFO - Error in decoding app details request. App id: 2621760
+23-04-2025 21:10:18 - __main__ - INFO - No successful response.2621760 excluded
+23-04-2025 21:10:18 - __main__ - INFO - Successfully get content of App ID: 320
+23-04-2025 21:10:19 - __main__ - INFO - Successfully get content of App ID: 3146050
+23-04-2025 21:10:19 - __main__ - INFO - Successfully get content of App ID: 1048900
+23-04-2025 21:10:19 - __main__ - INFO - Successfully get content of App ID: 1573190
+23-04-2025 21:10:19 - __main__ - INFO - Successfully get content of App ID: 2621770
+23-04-2025 21:10:20 - __main__ - INFO - Successfully get content of App ID: 3146060
+23-04-2025 21:10:20 - __main__ - INFO - Error in decoding app details request. App id: 3670350
+23-04-2025 21:10:20 - __main__ - INFO - No successful response.3670350 excluded
+23-04-2025 21:10:20 - __main__ - INFO - Error in decoding app details request. App id: 1048910
+23-04-2025 21:10:20 - __main__ - INFO - No successful response.1048910 excluded
+23-04-2025 21:10:20 - __main__ - INFO - Error in decoding app details request. App id: 340
+23-04-2025 21:10:20 - __main__ - INFO - No successful response.340 excluded
+23-04-2025 21:10:20 - __main__ - INFO - Successfully get content of App ID: 1048920
+23-04-2025 21:10:21 - __main__ - INFO - Successfully get content of App ID: 2621790
+23-04-2025 21:10:21 - __main__ - INFO - No successful response.1573220 excluded
+23-04-2025 21:10:21 - __main__ - INFO - Successfully get content of App ID: 2621800
+23-04-2025 21:10:21 - __main__ - INFO - Successfully get content of App ID: 360
+23-04-2025 21:10:21 - __main__ - INFO - Successfully get content of App ID: 3146090
+23-04-2025 21:10:22 - __main__ - INFO - Successfully get content of App ID: 1573230
+23-04-2025 21:10:22 - __main__ - INFO - Successfully get content of App ID: 3146100
+23-04-2025 21:10:22 - __main__ - INFO - No successful response.1048950 excluded
+23-04-2025 21:10:22 - __main__ - INFO - Successfully get content of App ID: 1573240
+23-04-2025 21:10:23 - __main__ - INFO - Successfully get content of App ID: 2621820
+23-04-2025 21:28:24 - __main__ - INFO - Total number of apps on steam: 243459
+23-04-2025 21:28:24 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:28:24 - __main__ - INFO - Number of apps in apps_dict: 100
+23-04-2025 21:28:25 - __main__ - INFO - Successfully get content of App ID: 524290
+23-04-2025 21:28:25 - __main__ - INFO - No successful response.5 excluded
+23-04-2025 21:28:25 - __main__ - INFO - No successful response.7 excluded
+23-04-2025 21:28:25 - __main__ - INFO - Successfully get content of App ID: 2097160
+23-04-2025 21:28:26 - __main__ - INFO - No successful response.8 excluded
+23-04-2025 21:28:26 - __main__ - INFO - Successfully get content of App ID: 524300
+23-04-2025 21:28:26 - __main__ - INFO - Successfully get content of App ID: 2097170
+23-04-2025 21:28:26 - __main__ - INFO - Successfully get content of App ID: 524310
+23-04-2025 21:28:26 - __main__ - INFO - Successfully get content of App ID: 2097180
+23-04-2025 21:28:27 - __main__ - INFO - Successfully get content of App ID: 524320
+23-04-2025 21:28:27 - __main__ - INFO - Successfully get content of App ID: 2097190
+23-04-2025 21:28:27 - __main__ - INFO - Successfully get content of App ID: 524330
+23-04-2025 21:28:27 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 21:28:27 - __main__ - INFO - Successfully get content of App ID: 2097200
+23-04-2025 21:28:28 - __main__ - INFO - Successfully get content of App ID: 2097210
+23-04-2025 21:28:28 - __main__ - INFO - Successfully get content of App ID: 524350
+23-04-2025 21:28:28 - __main__ - INFO - Successfully get content of App ID: 524360
+23-04-2025 21:28:28 - __main__ - INFO - Successfully get content of App ID: 2097230
+23-04-2025 21:28:28 - __main__ - INFO - Successfully get content of App ID: 2097240
+23-04-2025 21:28:29 - __main__ - INFO - No successful response.90 excluded
+23-04-2025 21:28:29 - __main__ - INFO - No successful response.524380 excluded
+23-04-2025 21:28:29 - __main__ - INFO - Successfully get content of App ID: 92
+23-04-2025 21:28:29 - __main__ - INFO - Successfully get content of App ID: 100
+23-04-2025 21:28:30 - __main__ - INFO - Successfully get content of App ID: 524390
+23-04-2025 21:28:30 - __main__ - INFO - No successful response.2097260 excluded
+23-04-2025 21:28:30 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 21:28:30 - __main__ - INFO - Successfully get content of App ID: 524410
+23-04-2025 21:28:30 - __main__ - INFO - Error in decoding app details request. App id: 2097280
+23-04-2025 21:28:30 - __main__ - INFO - No successful response.2097280 excluded
+23-04-2025 21:28:30 - __main__ - INFO - Successfully get content of App ID: 524420
+23-04-2025 21:28:30 - __main__ - INFO - Error in decoding app details request. App id: 2097290
+23-04-2025 21:28:30 - __main__ - INFO - No successful response.2097290 excluded
+23-04-2025 21:28:31 - __main__ - INFO - Error in decoding app details request. App id: 524430
+23-04-2025 21:28:31 - __main__ - INFO - No successful response.524430 excluded
+23-04-2025 21:28:31 - __main__ - INFO - Error in decoding app details request. App id: 2097300
+23-04-2025 21:28:31 - __main__ - INFO - No successful response.2097300 excluded
+23-04-2025 21:28:31 - __main__ - INFO - Error in decoding app details request. App id: 150
+23-04-2025 21:28:31 - __main__ - INFO - No successful response.150 excluded
+23-04-2025 21:28:31 - __main__ - INFO - No successful response.524440 excluded
+23-04-2025 21:28:31 - __main__ - INFO - Successfully get content of App ID: 2097310
+23-04-2025 21:28:31 - __main__ - INFO - Successfully get content of App ID: 524450
+23-04-2025 21:28:31 - __main__ - INFO - Error in decoding app details request. App id: 2097320
+23-04-2025 21:28:31 - __main__ - INFO - No successful response.2097320 excluded
+23-04-2025 21:28:32 - __main__ - INFO - Error in decoding app details request. App id: 2097330
+23-04-2025 21:28:32 - __main__ - INFO - No successful response.2097330 excluded
+23-04-2025 21:28:32 - __main__ - INFO - Error in decoding app details request. App id: 2097340
+23-04-2025 21:28:32 - __main__ - INFO - No successful response.2097340 excluded
+23-04-2025 21:28:32 - __main__ - INFO - Error in decoding app details request. App id: 2621630
+23-04-2025 21:28:32 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 21:28:32 - __main__ - INFO - Successfully get content of App ID: 2097350
+23-04-2025 21:28:32 - __main__ - INFO - Successfully get content of App ID: 524490
+23-04-2025 21:28:32 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 21:28:32 - __main__ - INFO - No successful response.205 excluded
+23-04-2025 21:28:33 - __main__ - INFO - Successfully get content of App ID: 2097360
+23-04-2025 21:28:33 - __main__ - INFO - Successfully create app_dict checkpoint: /home/fahmy/Code/SteamAnalysis/data/apps_dict-ckpt-fin.p
+23-04-2025 21:28:33 - __main__ - INFO - No successful response.2621650 excluded
+23-04-2025 21:28:33 - __main__ - INFO - No successful response.210 excluded
+23-04-2025 21:28:33 - __main__ - INFO - No successful response.211 excluded
+23-04-2025 21:28:33 - __main__ - INFO - No successful response.1048790 excluded
+23-04-2025 21:28:34 - __main__ - INFO - No successful response.215 excluded
+23-04-2025 21:28:34 - __main__ - INFO - Successfully get content of App ID: 2097370
+23-04-2025 21:28:34 - __main__ - INFO - No successful response.218 excluded
+23-04-2025 21:28:34 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 21:28:34 - __main__ - INFO - No successful response.219 excluded
+23-04-2025 21:28:35 - __main__ - INFO - No successful response.2097380 excluded
+23-04-2025 21:28:35 - __main__ - INFO - Successfully get content of App ID: 524520
+23-04-2025 21:28:35 - __main__ - INFO - No successful response.524530 excluded
+23-04-2025 21:28:35 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 21:28:35 - __main__ - INFO - Successfully get content of App ID: 2097400
+23-04-2025 21:28:36 - __main__ - INFO - Successfully get content of App ID: 524540
+23-04-2025 21:28:36 - __main__ - INFO - No successful response.1048830 excluded
+23-04-2025 21:28:36 - __main__ - INFO - Successfully get content of App ID: 2097410
+23-04-2025 21:28:36 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 21:28:36 - __main__ - INFO - No successful response.260 excluded
+23-04-2025 21:52:21 - log - INFO - Total number of apps on steam: 243466
+23-04-2025 21:52:21 - log - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:52:21 - log - INFO - Number of apps in apps_dict: 125
+23-04-2025 21:52:21 - log - INFO - No successful response.5 excluded
+23-04-2025 21:52:22 - log - INFO - No successful response.7 excluded
+23-04-2025 21:52:22 - log - INFO - No successful response.8 excluded
+23-04-2025 21:52:22 - log - INFO - No successful response.1572880 excluded
+23-04-2025 21:52:22 - log - INFO - No successful response.1572890 excluded
+23-04-2025 21:52:23 - log - INFO - No successful response.1572891 excluded
+23-04-2025 21:52:24 - log - INFO - No successful response.1572892 excluded
+23-04-2025 21:52:24 - log - INFO - No successful response.1572893 excluded
+23-04-2025 21:52:24 - log - INFO - No successful response.1572894 excluded
+23-04-2025 21:52:24 - log - INFO - No successful response.3145770 excluded
+23-04-2025 21:52:24 - log - INFO - No successful response.1572910 excluded
+23-04-2025 21:52:25 - log - INFO - No successful response.1572940 excluded
+23-04-2025 21:52:25 - log - INFO - No successful response.1572950 excluded
+23-04-2025 21:52:25 - log - INFO - No successful response.90 excluded
+23-04-2025 21:52:25 - log - INFO - No successful response.524380 excluded
+23-04-2025 21:52:26 - log - INFO - No successful response.1572960 excluded
+23-04-2025 21:52:26 - log - INFO - No successful response.2097260 excluded
+23-04-2025 21:52:26 - log - INFO - No successful response.3145840 excluded
+23-04-2025 21:52:26 - log - INFO - Successfully get content of App ID: 2097280
+23-04-2025 21:52:26 - log - INFO - Successfully get content of App ID: 2097290
+23-04-2025 21:52:27 - log - INFO - Successfully get content of App ID: 524430
+23-04-2025 21:52:27 - log - INFO - Successfully get content of App ID: 2097300
+23-04-2025 21:52:27 - log - INFO - Successfully get content of App ID: 150
+23-04-2025 21:52:27 - log - INFO - No successful response.524440 excluded
+23-04-2025 21:52:27 - log - INFO - No successful response.1573020 excluded
+23-04-2025 21:52:28 - log - INFO - Successfully get content of App ID: 2097320
+23-04-2025 21:52:28 - log - INFO - Successfully get content of App ID: 2097330
+23-04-2025 21:52:28 - log - INFO - No successful response.2097340 excluded
+23-04-2025 21:52:28 - log - INFO - No successful response.2621630 excluded
+23-04-2025 21:52:28 - log - INFO - No successful response.1573060 excluded
+23-04-2025 21:52:29 - log - INFO - No successful response.1048780 excluded
+23-04-2025 21:52:29 - log - INFO - No successful response.205 excluded
+23-04-2025 21:52:29 - log - INFO - No successful response.2621650 excluded
+23-04-2025 21:52:29 - log - INFO - No successful response.210 excluded
+23-04-2025 21:52:29 - log - INFO - No successful response.211 excluded
+23-04-2025 21:52:30 - log - INFO - No successful response.1048790 excluded
+23-04-2025 21:52:30 - log - INFO - No successful response.215 excluded
+23-04-2025 21:52:30 - log - INFO - No successful response.1573080 excluded
+23-04-2025 21:52:30 - log - INFO - Successfully get content of App ID: 2097370
+23-04-2025 21:52:30 - log - INFO - Error in decoding app details request. App id: 218
+23-04-2025 21:52:30 - log - INFO - No successful response.218 excluded
+23-04-2025 21:52:30 - log - INFO - No successful response.2621660 excluded
+23-04-2025 21:52:31 - log - INFO - No successful response.219 excluded
+23-04-2025 21:52:31 - log - INFO - No successful response.2097380 excluded
+23-04-2025 21:52:31 - log - INFO - Successfully get content of App ID: 524520
+23-04-2025 21:52:31 - log - INFO - No successful response.524530 excluded
+23-04-2025 21:52:32 - log - INFO - No successful response.3145970 excluded
+23-04-2025 21:52:32 - log - INFO - Successfully get content of App ID: 2097400
+23-04-2025 21:52:32 - log - INFO - Successfully get content of App ID: 524540
+23-04-2025 21:52:32 - log - INFO - No successful response.1048830 excluded
+23-04-2025 21:52:32 - log - INFO - No successful response.1573120 excluded
+23-04-2025 21:52:33 - log - INFO - Successfully get content of App ID: 2097410
+23-04-2025 21:52:33 - log - INFO - No successful response.2621700 excluded
+23-04-2025 21:52:33 - log - INFO - No successful response.260 excluded
+23-04-2025 21:52:33 - log - INFO - No successful response.524550 excluded
+23-04-2025 21:52:33 - log - INFO - No successful response.3145990 excluded
+23-04-2025 21:52:34 - log - INFO - No successful response.1048840 excluded
+23-04-2025 21:52:34 - log - INFO - Successfully get content of App ID: 2097420
+23-04-2025 21:52:34 - log - INFO - Successfully get content of App ID: 524560
+23-04-2025 21:52:34 - log - INFO - No successful response.1048850 excluded
+23-04-2025 21:52:34 - log - INFO - Successfully get content of App ID: 2097430
+23-04-2025 21:52:35 - log - INFO - No successful response.280 excluded
+23-04-2025 21:52:35 - log - INFO - No successful response.524570 excluded
+23-04-2025 21:53:41 - log - INFO - Total number of apps on steam: 243467
+23-04-2025 21:53:41 - log - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:53:41 - log - INFO - Number of apps in apps_dict: 125
+23-04-2025 21:53:41 - log - INFO - No successful response.5 excluded
+23-04-2025 21:53:41 - log - INFO - No successful response.7 excluded
+23-04-2025 21:53:41 - log - INFO - No successful response.8 excluded
+23-04-2025 21:53:41 - log - INFO - No successful response.3145770 excluded
+23-04-2025 21:53:42 - log - INFO - Error in decoding app details request. App id: 90
+23-04-2025 21:53:42 - log - INFO - No successful response.90 excluded
+23-04-2025 21:53:42 - log - INFO - No successful response.524380 excluded
+23-04-2025 21:53:42 - log - INFO - No successful response.2097260 excluded
+23-04-2025 21:53:42 - log - INFO - No successful response.3145840 excluded
+23-04-2025 21:53:42 - log - INFO - Error in decoding app details request. App id: 2097280
+23-04-2025 21:53:42 - log - INFO - No successful response.2097280 excluded
+23-04-2025 21:53:42 - log - INFO - Error in decoding app details request. App id: 2097290
+23-04-2025 21:53:42 - log - INFO - No successful response.2097290 excluded
+23-04-2025 21:53:43 - log - INFO - Error in decoding app details request. App id: 524430
+23-04-2025 21:53:43 - log - INFO - No successful response.524430 excluded
+23-04-2025 21:53:43 - log - INFO - Error in decoding app details request. App id: 2097300
+23-04-2025 21:53:43 - log - INFO - No successful response.2097300 excluded
+23-04-2025 21:53:43 - log - INFO - Error in decoding app details request. App id: 150
+23-04-2025 21:53:43 - log - INFO - No successful response.150 excluded
+23-04-2025 21:53:43 - log - INFO - Error in decoding app details request. App id: 524440
+23-04-2025 21:53:43 - log - INFO - No successful response.524440 excluded
+23-04-2025 21:53:43 - log - INFO - Successfully get content of App ID: 2097320
+23-04-2025 21:53:43 - log - INFO - Successfully get content of App ID: 2097330
+23-04-2025 21:53:44 - log - INFO - No successful response.2097340 excluded
+23-04-2025 21:53:44 - log - INFO - No successful response.1048780 excluded
+23-04-2025 21:53:44 - log - INFO - No successful response.205 excluded
+23-04-2025 21:53:44 - log - INFO - No successful response.210 excluded
+23-04-2025 21:53:44 - log - INFO - No successful response.211 excluded
+23-04-2025 21:53:45 - log - INFO - No successful response.1048790 excluded
+23-04-2025 21:53:45 - log - INFO - No successful response.215 excluded
+23-04-2025 21:53:45 - log - INFO - No successful response.218 excluded
+23-04-2025 21:54:41 - log - INFO - Total number of apps on steam: 243466
+23-04-2025 21:54:41 - log - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 21:54:41 - log - INFO - Number of apps in apps_dict: 125
+23-04-2025 21:54:41 - log - INFO - No successful response.5 excluded
+23-04-2025 21:54:41 - log - INFO - No successful response.7 excluded
