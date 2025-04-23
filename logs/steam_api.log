@@ -1,0 +1,900 @@
+23-04-2025 17:16:07 - __main__ - INFO - Total number of apps on steam: 243402
+23-04-2025 17:16:07 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/src/checkpoints
+23-04-2025 17:16:07 - __main__ - INFO - Fail to find checkpoint folder: /home/fahmy/Code/SteamAnalysis/src/checkpoints
+23-04-2025 17:16:07 - __main__ - INFO - Start at blank.
+23-04-2025 17:16:07 - __main__ - INFO - Successfully get content of App ID: 2621440
+23-04-2025 17:17:23 - __main__ - INFO - Total number of apps on steam: 243402
+23-04-2025 17:17:23 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/src/checkpoints
+23-04-2025 17:17:23 - __main__ - INFO - Successfully get content of App ID: 2621440
+23-04-2025 17:17:23 - __main__ - INFO - No successful response.3145730 excluded
+23-04-2025 17:17:24 - __main__ - INFO - Successfully get content of App ID: 1048580
+23-04-2025 17:17:24 - __main__ - INFO - No successful response.5 excluded
+23-04-2025 17:17:24 - __main__ - INFO - Successfully get content of App ID: 1572870
+23-04-2025 17:17:24 - __main__ - INFO - No successful response.7 excluded
+23-04-2025 17:17:25 - __main__ - INFO - No successful response.8 excluded
+23-04-2025 17:17:25 - __main__ - INFO - Successfully get content of App ID: 2621450
+23-04-2025 17:17:25 - __main__ - INFO - Successfully get content of App ID: 10
+23-04-2025 17:17:25 - __main__ - INFO - Successfully get content of App ID: 3145740
+23-04-2025 17:17:25 - __main__ - INFO - No successful response.1572880 excluded
+23-04-2025 17:17:26 - __main__ - INFO - Successfully get content of App ID: 2621460
+23-04-2025 17:17:26 - __main__ - INFO - Successfully get content of App ID: 20
+23-04-2025 17:17:26 - __main__ - INFO - Successfully get content of App ID: 3145750
+23-04-2025 17:17:26 - __main__ - INFO - No successful response.1572890 excluded
+23-04-2025 17:17:26 - __main__ - INFO - No successful response.1572891 excluded
+23-04-2025 17:17:27 - __main__ - INFO - No successful response.1572892 excluded
+23-04-2025 17:17:27 - __main__ - INFO - No successful response.1572893 excluded
+23-04-2025 17:17:27 - __main__ - INFO - Successfully get content of App ID: 2621470
+23-04-2025 17:17:27 - __main__ - INFO - No successful response.1572894 excluded
+23-04-2025 17:17:27 - __main__ - INFO - Successfully get content of App ID: 30
+23-04-2025 17:17:28 - __main__ - INFO - No successful response.1048610 excluded
+23-04-2025 17:17:28 - __main__ - INFO - Successfully get content of App ID: 40
+23-04-2025 17:17:28 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 17:17:28 - __main__ - INFO - No successful response.1572910 excluded
+23-04-2025 17:17:28 - __main__ - INFO - Successfully get content of App ID: 50
+23-04-2025 17:17:29 - __main__ - INFO - Successfully get content of App ID: 3145780
+23-04-2025 17:17:29 - __main__ - INFO - No successful response.1048630 excluded
+23-04-2025 17:17:29 - __main__ - INFO - Successfully get content of App ID: 1572920
+23-04-2025 17:17:29 - __main__ - INFO - Successfully get content of App ID: 2621500
+23-04-2025 17:17:29 - __main__ - INFO - Successfully get content of App ID: 60
+23-04-2025 17:17:30 - __main__ - INFO - Successfully get content of App ID: 3145790
+23-04-2025 17:17:30 - __main__ - INFO - Successfully get content of App ID: 1048640
+23-04-2025 17:17:30 - __main__ - INFO - Successfully get content of App ID: 1572930
+23-04-2025 17:17:30 - __main__ - INFO - Successfully get content of App ID: 2621510
+23-04-2025 17:17:31 - __main__ - INFO - Successfully get content of App ID: 70
+23-04-2025 17:17:31 - __main__ - INFO - Successfully get content of App ID: 3145800
+23-04-2025 17:17:31 - __main__ - INFO - No successful response.1572940 excluded
+23-04-2025 17:17:31 - __main__ - INFO - Successfully get content of App ID: 2621520
+23-04-2025 17:17:31 - __main__ - INFO - Successfully get content of App ID: 80
+23-04-2025 17:17:32 - __main__ - INFO - No successful response.3145810 excluded
+23-04-2025 17:17:32 - __main__ - INFO - Successfully get content of App ID: 1048660
+23-04-2025 17:17:32 - __main__ - INFO - No successful response.1572950 excluded
+23-04-2025 17:17:32 - __main__ - INFO - Successfully get content of App ID: 2621530
+23-04-2025 17:17:32 - __main__ - INFO - No successful response.90 excluded
+23-04-2025 17:17:33 - __main__ - INFO - Successfully get content of App ID: 92
+23-04-2025 17:17:33 - __main__ - INFO - No successful response.1048670 excluded
+23-04-2025 17:17:33 - __main__ - INFO - No successful response.1572960 excluded
+23-04-2025 17:17:33 - __main__ - INFO - Successfully get content of App ID: 2621540
+23-04-2025 17:17:33 - __main__ - INFO - Successfully get content of App ID: 100
+23-04-2025 17:17:34 - __main__ - INFO - Successfully get content of App ID: 3145830
+23-04-2025 17:17:34 - __main__ - INFO - Successfully get content of App ID: 1572970
+23-04-2025 17:17:34 - __main__ - INFO - Successfully get content of App ID: 2621550
+23-04-2025 17:17:34 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 17:17:34 - __main__ - INFO - Successfully get content of App ID: 1048690
+23-04-2025 17:17:35 - __main__ - INFO - Successfully get content of App ID: 2621560
+23-04-2025 17:17:35 - __main__ - INFO - Successfully get content of App ID: 3145850
+23-04-2025 17:17:35 - __main__ - INFO - Successfully get content of App ID: 1572990
+23-04-2025 17:17:35 - __main__ - INFO - Successfully get content of App ID: 2621570
+23-04-2025 17:17:35 - __main__ - INFO - Successfully get content of App ID: 130
+23-04-2025 17:17:36 - __main__ - INFO - Successfully get content of App ID: 3145860
+23-04-2025 17:17:36 - __main__ - INFO - No successful response.1048710 excluded
+23-04-2025 17:17:36 - __main__ - INFO - Successfully get content of App ID: 1573000
+23-04-2025 17:17:36 - __main__ - INFO - Successfully get content of App ID: 2621580
+23-04-2025 17:17:37 - __main__ - INFO - Successfully get content of App ID: 3145870
+23-04-2025 17:17:37 - __main__ - INFO - Successfully get content of App ID: 1573010
+23-04-2025 17:17:37 - __main__ - INFO - Successfully get content of App ID: 150
+23-04-2025 17:17:37 - __main__ - INFO - Successfully get content of App ID: 3145880
+23-04-2025 17:17:37 - __main__ - INFO - No successful response.1573020 excluded
+23-04-2025 17:17:38 - __main__ - INFO - Successfully get content of App ID: 3145890
+23-04-2025 17:17:38 - __main__ - INFO - Successfully get content of App ID: 1048740
+23-04-2025 17:17:38 - __main__ - INFO - Successfully get content of App ID: 1573030
+23-04-2025 17:17:38 - __main__ - INFO - Successfully get content of App ID: 2621610
+23-04-2025 17:17:38 - __main__ - INFO - Successfully get content of App ID: 1573040
+23-04-2025 17:17:39 - __main__ - INFO - Error in decoding app details request. App id: 2621620
+23-04-2025 17:17:39 - __main__ - INFO - No successful response.2621620 excluded
+23-04-2025 17:17:39 - __main__ - INFO - Successfully get content of App ID: 1573050
+23-04-2025 17:17:39 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 17:17:39 - __main__ - INFO - Successfully get content of App ID: 3145920
+23-04-2025 17:17:39 - __main__ - INFO - Successfully get content of App ID: 1048770
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.1573060 excluded
+23-04-2025 17:17:40 - __main__ - INFO - Error in decoding app details request. App id: 2621640
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.2621640 excluded
+23-04-2025 17:17:40 - __main__ - INFO - Error in decoding app details request. App id: 3145930
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.3145930 excluded
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 17:17:40 - __main__ - INFO - Error in decoding app details request. App id: 205
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.205 excluded
+23-04-2025 17:17:40 - __main__ - INFO - Error in decoding app details request. App id: 1573070
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.1573070 excluded
+23-04-2025 17:17:40 - __main__ - INFO - Error in decoding app details request. App id: 2621650
+23-04-2025 17:17:40 - __main__ - INFO - No successful response.2621650 excluded
+23-04-2025 17:17:41 - __main__ - INFO - Error in decoding app details request. App id: 210
+23-04-2025 17:17:41 - __main__ - INFO - No successful response.210 excluded
+23-04-2025 17:17:41 - __main__ - INFO - Successfully get content of App ID: 3145940
+23-04-2025 17:17:41 - __main__ - INFO - No successful response.211 excluded
+23-04-2025 17:17:41 - __main__ - INFO - No successful response.1048790 excluded
+23-04-2025 17:17:41 - __main__ - INFO - No successful response.215 excluded
+23-04-2025 17:17:41 - __main__ - INFO - Error in decoding app details request. App id: 1573080
+23-04-2025 17:17:41 - __main__ - INFO - No successful response.1573080 excluded
+23-04-2025 17:17:42 - __main__ - INFO - Error in decoding app details request. App id: 218
+23-04-2025 17:17:42 - __main__ - INFO - No successful response.218 excluded
+23-04-2025 17:17:42 - __main__ - INFO - No successful response.219 excluded
+23-04-2025 17:17:42 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 17:17:42 - __main__ - INFO - Successfully get content of App ID: 220
+23-04-2025 17:17:42 - __main__ - INFO - Error in decoding app details request. App id: 1573090
+23-04-2025 17:17:42 - __main__ - INFO - No successful response.1573090 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Successfully get content of App ID: 2621670
+23-04-2025 17:17:43 - __main__ - INFO - Successfully get content of App ID: 3145960
+23-04-2025 17:17:43 - __main__ - INFO - Successfully get content of App ID: 1573100
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 2621680
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.2621680 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 240
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.240 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 3145970
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 1573110
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.1573110 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 2621690
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.2621690 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 3145980
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.3145980 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 1048830
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.1048830 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 1573120
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.1573120 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 2621700
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 260
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.260 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 3145990
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.3145990 excluded
+23-04-2025 17:17:43 - __main__ - INFO - Error in decoding app details request. App id: 1048840
+23-04-2025 17:17:43 - __main__ - INFO - No successful response.1048840 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 3670280
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.3670280 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1573130
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1573130 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 2621710
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.2621710 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 3146000
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.3146000 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048850
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048850 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1573140
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1573140 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1573141
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1573141 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 2621720
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.2621720 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 280
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.280 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 3146010
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.3146010 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048860
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048860 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 2621730
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.2621730 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 3146020
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.3146020 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048870
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048870 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048871
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048871 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048872
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048872 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048873
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048873 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048874
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048874 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048875
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048875 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 2621740
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.2621740 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048876
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048876 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048877
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048877 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048878
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048878 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048880
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048880 excluded
+23-04-2025 17:17:44 - __main__ - INFO - Error in decoding app details request. App id: 1048879
+23-04-2025 17:17:44 - __main__ - INFO - No successful response.1048879 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 3146030
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.3146030 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1573170
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1573170 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 300
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.300 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 304
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.304 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 2621750
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.2621750 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 310
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.310 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 3146040
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.3146040 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1048890
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1048890 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1573180
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1573180 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 2621760
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.2621760 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 320
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.320 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 3146050
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.3146050 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1048900
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1048900 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1573190
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1573190 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 2621770
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.2621770 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 3146060
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.3146060 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1048910
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1048910 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 340
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.340 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1048920
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1048920 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 2621790
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.2621790 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 1573220
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.1573220 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 2621800
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.2621800 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 360
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.360 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 3146090
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.3146090 excluded
+23-04-2025 17:17:45 - __main__ - INFO - Error in decoding app details request. App id: 364
+23-04-2025 17:17:45 - __main__ - INFO - No successful response.364 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573230
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573230 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 3146100
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.3146100 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1048950
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1048950 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573240
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573240 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 2621820
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.2621820 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 380
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.380 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1048960
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1048960 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573250
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573250 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 2621830
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.2621830 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 3146120
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.3146120 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573260
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573260 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 400
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.400 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 524690
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.524690 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 3146130
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.3146130 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 2621850
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.2621850 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 410
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.410 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573280
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573280 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 2621860
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.2621860 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 420
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.420 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 3146150
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.3146150 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1049000
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1049000 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573290
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573290 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 2621870
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.2621870 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1049010
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1049010 excluded
+23-04-2025 17:17:46 - __main__ - INFO - Error in decoding app details request. App id: 1573300
+23-04-2025 17:17:46 - __main__ - INFO - No successful response.1573300 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 440
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.440 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 1049020
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.1049020 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 2621890
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.2621890 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 1049030
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.1049030 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 456
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.456 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 457
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.457 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 458
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.458 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 459
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.459 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 2621900
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.2621900 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 1573330
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.1573330 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Error in decoding app details request. App id: 2621910
+23-04-2025 17:17:47 - __main__ - INFO - No successful response.2621910 excluded
+23-04-2025 17:17:47 - __main__ - INFO - Successfully get content of App ID: 3146200
+23-04-2025 17:17:47 - __main__ - INFO - Successfully get content of App ID: 1049050
+23-04-2025 17:17:48 - __main__ - INFO - No successful response.1573340 excluded
+23-04-2025 17:17:48 - __main__ - INFO - Successfully get content of App ID: 2621920
+23-04-2025 17:17:48 - __main__ - INFO - No successful response.480 excluded
+23-04-2025 17:17:48 - __main__ - INFO - Successfully get content of App ID: 3146210
+23-04-2025 17:17:48 - __main__ - INFO - Successfully get content of App ID: 1573350
+23-04-2025 17:17:49 - __main__ - INFO - Successfully get content of App ID: 1049070
+23-04-2025 17:17:49 - __main__ - INFO - Successfully get content of App ID: 1573360
+23-04-2025 17:17:49 - __main__ - INFO - Successfully get content of App ID: 2621940
+23-04-2025 17:17:49 - __main__ - INFO - Successfully get content of App ID: 500
+23-04-2025 17:17:49 - __main__ - INFO - Successfully get content of App ID: 3146230
+23-04-2025 17:17:50 - __main__ - INFO - No successful response.1049080 excluded
+23-04-2025 17:17:50 - __main__ - INFO - Successfully get content of App ID: 2621950
+23-04-2025 17:17:50 - __main__ - INFO - No successful response.510 excluded
+23-04-2025 17:17:51 - __main__ - INFO - No successful response.513 excluded
+23-04-2025 17:17:52 - __main__ - INFO - Successfully get content of App ID: 1049090
+23-04-2025 17:17:52 - __main__ - INFO - No successful response.1573380 excluded
+23-04-2025 17:17:52 - __main__ - INFO - Successfully get content of App ID: 2621960
+23-04-2025 17:24:06 - __main__ - INFO - Total number of apps on steam: 243402
+23-04-2025 17:25:12 - __main__ - INFO - Total number of apps on steam: 243418
+23-04-2025 17:25:12 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 17:25:12 - __main__ - INFO - Successfully get content of App ID: 2621440
+23-04-2025 17:25:12 - __main__ - INFO - No successful response.3145730 excluded
+23-04-2025 17:25:12 - __main__ - INFO - Successfully get content of App ID: 1048580
+23-04-2025 17:25:13 - __main__ - INFO - Successfully get content of App ID: 2621450
+23-04-2025 17:25:13 - __main__ - INFO - Successfully get content of App ID: 10
+23-04-2025 17:25:13 - __main__ - INFO - Successfully get content of App ID: 3145740
+23-04-2025 17:25:13 - __main__ - INFO - Successfully get content of App ID: 2621460
+23-04-2025 17:25:13 - __main__ - INFO - Successfully get content of App ID: 20
+23-04-2025 17:25:14 - __main__ - INFO - Successfully get content of App ID: 3145750
+23-04-2025 17:25:14 - __main__ - INFO - Successfully get content of App ID: 2621470
+23-04-2025 17:25:14 - __main__ - INFO - Successfully get content of App ID: 30
+23-04-2025 17:25:14 - __main__ - INFO - No successful response.1048610 excluded
+23-04-2025 17:25:15 - __main__ - INFO - Successfully get content of App ID: 40
+23-04-2025 17:25:15 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 17:25:15 - __main__ - INFO - Successfully get content of App ID: 50
+23-04-2025 17:25:15 - __main__ - INFO - Successfully get content of App ID: 3145780
+23-04-2025 17:25:16 - __main__ - INFO - No successful response.1048630 excluded
+23-04-2025 17:25:16 - __main__ - INFO - Successfully get content of App ID: 2621500
+23-04-2025 17:25:16 - __main__ - INFO - Successfully get content of App ID: 60
+23-04-2025 17:25:16 - __main__ - INFO - Successfully get content of App ID: 3145790
+23-04-2025 17:25:16 - __main__ - INFO - Successfully get content of App ID: 1048640
+23-04-2025 17:25:17 - __main__ - INFO - Successfully get content of App ID: 2621510
+23-04-2025 17:25:17 - __main__ - INFO - Successfully get content of App ID: 70
+23-04-2025 17:25:17 - __main__ - INFO - Successfully get content of App ID: 3145800
+23-04-2025 17:25:17 - __main__ - INFO - Successfully get content of App ID: 2621520
+23-04-2025 17:25:18 - __main__ - INFO - Successfully get content of App ID: 80
+23-04-2025 17:25:18 - __main__ - INFO - No successful response.3145810 excluded
+23-04-2025 17:25:18 - __main__ - INFO - Successfully get content of App ID: 1048660
+23-04-2025 17:25:18 - __main__ - INFO - Successfully get content of App ID: 2621530
+23-04-2025 17:25:18 - __main__ - INFO - No successful response.1048670 excluded
+23-04-2025 17:25:19 - __main__ - INFO - Successfully get content of App ID: 2621540
+23-04-2025 17:25:19 - __main__ - INFO - Successfully get content of App ID: 3145830
+23-04-2025 17:25:19 - __main__ - INFO - Successfully get content of App ID: 3670120
+23-04-2025 17:25:19 - __main__ - INFO - Successfully get content of App ID: 2621550
+23-04-2025 17:25:19 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 17:25:20 - __main__ - INFO - Successfully get content of App ID: 1048690
+23-04-2025 17:25:20 - __main__ - INFO - Successfully get content of App ID: 2621560
+23-04-2025 17:25:20 - __main__ - INFO - Successfully get content of App ID: 3145850
+23-04-2025 17:25:20 - __main__ - INFO - Successfully get content of App ID: 2621570
+23-04-2025 17:25:21 - __main__ - INFO - Successfully get content of App ID: 130
+23-04-2025 17:25:21 - __main__ - INFO - Successfully get content of App ID: 3145860
+23-04-2025 17:25:21 - __main__ - INFO - No successful response.1048710 excluded
+23-04-2025 17:25:21 - __main__ - INFO - Successfully get content of App ID: 2621580
+23-04-2025 17:25:21 - __main__ - INFO - Successfully get content of App ID: 3145870
+23-04-2025 17:25:22 - __main__ - INFO - Successfully get content of App ID: 3145880
+23-04-2025 17:25:22 - __main__ - INFO - Successfully get content of App ID: 3145890
+23-04-2025 17:25:22 - __main__ - INFO - Successfully get content of App ID: 1048740
+23-04-2025 17:25:22 - __main__ - INFO - Successfully get content of App ID: 2621610
+23-04-2025 17:25:22 - __main__ - INFO - Successfully get content of App ID: 2621620
+23-04-2025 17:25:23 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 17:25:23 - __main__ - INFO - Successfully get content of App ID: 3145920
+23-04-2025 17:25:23 - __main__ - INFO - Successfully get content of App ID: 1048770
+23-04-2025 17:25:23 - __main__ - INFO - Successfully get content of App ID: 2621640
+23-04-2025 17:25:23 - __main__ - INFO - Successfully get content of App ID: 3145930
+23-04-2025 17:25:24 - __main__ - INFO - No successful response.1048780 excluded
+23-04-2025 17:25:24 - __main__ - INFO - No successful response.2621650 excluded
+23-04-2025 17:25:24 - __main__ - INFO - Successfully get content of App ID: 3145940
+23-04-2025 17:25:24 - __main__ - INFO - No successful response.1048790 excluded
+23-04-2025 17:25:25 - __main__ - INFO - No successful response.219 excluded
+23-04-2025 17:25:25 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 17:25:25 - __main__ - INFO - Successfully get content of App ID: 220
+23-04-2025 17:25:25 - __main__ - INFO - Successfully get content of App ID: 3670240
+23-04-2025 17:25:25 - __main__ - INFO - Successfully get content of App ID: 2621670
+23-04-2025 17:25:26 - __main__ - INFO - Successfully get content of App ID: 3145960
+23-04-2025 17:25:26 - __main__ - INFO - Successfully get content of App ID: 2621680
+23-04-2025 17:25:26 - __main__ - INFO - Successfully get content of App ID: 240
+23-04-2025 17:25:26 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 17:25:26 - __main__ - INFO - Successfully get content of App ID: 3670260
+23-04-2025 17:25:27 - __main__ - INFO - Successfully get content of App ID: 2621690
+23-04-2025 17:25:27 - __main__ - INFO - Successfully get content of App ID: 3145980
+23-04-2025 17:25:27 - __main__ - INFO - Successfully get content of App ID: 3670270
+23-04-2025 17:25:27 - __main__ - INFO - No successful response.1048830 excluded
+23-04-2025 17:25:27 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 17:25:28 - __main__ - INFO - No successful response.3145990 excluded
+23-04-2025 17:25:28 - __main__ - INFO - No successful response.1048840 excluded
+23-04-2025 17:25:28 - __main__ - INFO - Successfully get content of App ID: 3670280
+23-04-2025 17:25:29 - __main__ - INFO - Successfully get content of App ID: 2621710
+23-04-2025 17:25:29 - __main__ - INFO - Successfully get content of App ID: 3146000
+23-04-2025 17:25:29 - __main__ - INFO - Successfully get content of App ID: 3670290
+23-04-2025 17:25:29 - __main__ - INFO - No successful response.1048850 excluded
+23-04-2025 17:25:30 - __main__ - INFO - Successfully get content of App ID: 2621720
+23-04-2025 17:25:30 - __main__ - INFO - Successfully get content of App ID: 3146010
+23-04-2025 17:25:30 - __main__ - INFO - Successfully get content of App ID: 1048860
+23-04-2025 17:25:30 - __main__ - INFO - Successfully get content of App ID: 3670300
+23-04-2025 17:25:30 - __main__ - INFO - Successfully get content of App ID: 2621730
+23-04-2025 17:25:31 - __main__ - INFO - Successfully get content of App ID: 3146020
+23-04-2025 17:25:31 - __main__ - INFO - Successfully get content of App ID: 3670310
+23-04-2025 17:25:31 - __main__ - INFO - Successfully get content of App ID: 1048870
+23-04-2025 17:25:31 - __main__ - INFO - Successfully get content of App ID: 1048871
+23-04-2025 17:25:31 - __main__ - INFO - Successfully get content of App ID: 1048872
+23-04-2025 17:25:32 - __main__ - INFO - Successfully get content of App ID: 1048873
+23-04-2025 17:25:32 - __main__ - INFO - Successfully get content of App ID: 1048874
+23-04-2025 17:25:32 - __main__ - INFO - Successfully get content of App ID: 2621740
+23-04-2025 17:25:32 - __main__ - INFO - Successfully get content of App ID: 1048875
+23-04-2025 17:25:33 - __main__ - INFO - Successfully get content of App ID: 1048876
+23-04-2025 17:25:33 - __main__ - INFO - Successfully get content of App ID: 1048877
+23-04-2025 17:25:33 - __main__ - INFO - Successfully get content of App ID: 3670320
+23-04-2025 17:25:33 - __main__ - INFO - Successfully get content of App ID: 1048878
+23-04-2025 17:25:33 - __main__ - INFO - Successfully get content of App ID: 1048879
+23-04-2025 17:25:34 - __main__ - INFO - No successful response.1048880 excluded
+23-04-2025 17:25:34 - __main__ - INFO - Successfully get content of App ID: 3146030
+23-04-2025 17:25:34 - __main__ - INFO - Successfully get content of App ID: 300
+23-04-2025 17:25:34 - __main__ - INFO - Successfully get content of App ID: 2621750
+23-04-2025 17:25:34 - __main__ - INFO - No successful response.3146040 excluded
+23-04-2025 17:25:35 - __main__ - INFO - No successful response.1048890 excluded
+23-04-2025 17:25:35 - __main__ - INFO - Successfully get content of App ID: 2621760
+23-04-2025 17:25:35 - __main__ - INFO - Successfully get content of App ID: 320
+23-04-2025 17:25:35 - __main__ - INFO - Successfully get content of App ID: 3146050
+23-04-2025 17:25:36 - __main__ - INFO - Successfully get content of App ID: 1048900
+23-04-2025 17:25:36 - __main__ - INFO - Successfully get content of App ID: 2621770
+23-04-2025 17:25:36 - __main__ - INFO - Successfully get content of App ID: 3146060
+23-04-2025 17:25:36 - __main__ - INFO - Successfully get content of App ID: 3670350
+23-04-2025 17:25:36 - __main__ - INFO - Successfully get content of App ID: 1048910
+23-04-2025 17:25:37 - __main__ - INFO - Successfully get content of App ID: 340
+23-04-2025 17:25:37 - __main__ - INFO - Successfully get content of App ID: 1048920
+23-04-2025 17:25:37 - __main__ - INFO - Successfully get content of App ID: 2621790
+23-04-2025 17:25:37 - __main__ - INFO - Successfully get content of App ID: 2621800
+23-04-2025 17:25:38 - __main__ - INFO - Successfully get content of App ID: 360
+23-04-2025 17:25:38 - __main__ - INFO - Successfully get content of App ID: 3146090
+23-04-2025 17:25:38 - __main__ - INFO - Successfully get content of App ID: 3146100
+23-04-2025 17:25:38 - __main__ - INFO - No successful response.1048950 excluded
+23-04-2025 17:25:38 - __main__ - INFO - Successfully get content of App ID: 2621820
+23-04-2025 17:25:39 - __main__ - INFO - Successfully get content of App ID: 380
+23-04-2025 17:25:39 - __main__ - INFO - No successful response.1048960 excluded
+23-04-2025 17:25:39 - __main__ - INFO - Successfully get content of App ID: 2621830
+23-04-2025 17:25:39 - __main__ - INFO - Successfully get content of App ID: 3146120
+23-04-2025 17:25:39 - __main__ - INFO - Successfully get content of App ID: 400
+23-04-2025 17:25:40 - __main__ - INFO - No successful response.524690 excluded
+23-04-2025 17:25:40 - __main__ - INFO - Successfully get content of App ID: 3146130
+23-04-2025 17:25:40 - __main__ - INFO - Successfully get content of App ID: 2621850
+23-04-2025 17:25:40 - __main__ - INFO - Successfully get content of App ID: 2097570
+23-04-2025 17:25:40 - __main__ - INFO - Successfully get content of App ID: 2621860
+23-04-2025 17:25:41 - __main__ - INFO - Successfully get content of App ID: 420
+23-04-2025 17:25:41 - __main__ - INFO - Successfully get content of App ID: 3146150
+23-04-2025 17:25:41 - __main__ - INFO - Successfully get content of App ID: 3670440
+23-04-2025 17:25:41 - __main__ - INFO - No successful response.1049000 excluded
+23-04-2025 17:25:42 - __main__ - INFO - No successful response.2621870 excluded
+23-04-2025 17:25:42 - __main__ - INFO - Successfully get content of App ID: 3670450
+23-04-2025 17:25:42 - __main__ - INFO - Successfully get content of App ID: 1049010
+23-04-2025 17:25:42 - __main__ - INFO - Successfully get content of App ID: 440
+23-04-2025 17:25:43 - __main__ - INFO - Successfully get content of App ID: 3670460
+23-04-2025 17:25:43 - __main__ - INFO - Successfully get content of App ID: 1049020
+23-04-2025 17:25:43 - __main__ - INFO - Successfully get content of App ID: 2621890
+23-04-2025 17:25:43 - __main__ - INFO - No successful response.1049030 excluded
+23-04-2025 17:25:44 - __main__ - INFO - Successfully get content of App ID: 2621900
+23-04-2025 17:25:44 - __main__ - INFO - Successfully get content of App ID: 2621910
+23-04-2025 17:25:44 - __main__ - INFO - Successfully get content of App ID: 3146200
+23-04-2025 17:25:44 - __main__ - INFO - Successfully get content of App ID: 1049050
+23-04-2025 17:25:44 - __main__ - INFO - Error in decoding app details request. App id: 2621920
+23-04-2025 17:25:44 - __main__ - INFO - No successful response.2621920 excluded
+23-04-2025 17:25:45 - __main__ - INFO - Successfully get content of App ID: 3146210
+23-04-2025 17:25:45 - __main__ - INFO - Error in decoding app details request. App id: 3670500
+23-04-2025 17:25:45 - __main__ - INFO - No successful response.3670500 excluded
+23-04-2025 17:25:45 - __main__ - INFO - Error in decoding app details request. App id: 1049070
+23-04-2025 17:25:45 - __main__ - INFO - No successful response.1049070 excluded
+23-04-2025 17:25:45 - __main__ - INFO - Error in decoding app details request. App id: 2621940
+23-04-2025 17:25:45 - __main__ - INFO - No successful response.2621940 excluded
+23-04-2025 17:25:45 - __main__ - INFO - Successfully get content of App ID: 500
+23-04-2025 17:25:46 - __main__ - INFO - Successfully get content of App ID: 3146230
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 1049080
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.1049080 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 2621950
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.2621950 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 1049090
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.1049090 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 2621960
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.2621960 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 3146250
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.3146250 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 3670540
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.3670540 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 1049100
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.1049100 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 3146260
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.3146260 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Error in decoding app details request. App id: 1049110
+23-04-2025 17:25:46 - __main__ - INFO - No successful response.1049110 excluded
+23-04-2025 17:25:46 - __main__ - INFO - Successfully get content of App ID: 2621980
+23-04-2025 17:25:47 - __main__ - INFO - Successfully get content of App ID: 3146270
+23-04-2025 17:25:47 - __main__ - INFO - Error in decoding app details request. App id: 1049120
+23-04-2025 17:25:47 - __main__ - INFO - No successful response.1049120 excluded
+23-04-2025 17:25:47 - __main__ - INFO - Successfully get content of App ID: 1049121
+23-04-2025 17:25:47 - __main__ - INFO - Successfully get content of App ID: 2621990
+23-04-2025 17:25:47 - __main__ - INFO - Error in decoding app details request. App id: 550
+23-04-2025 17:25:47 - __main__ - INFO - No successful response.550 excluded
+23-04-2025 17:25:47 - __main__ - INFO - Error in decoding app details request. App id: 3146280
+23-04-2025 17:25:47 - __main__ - INFO - No successful response.3146280 excluded
+23-04-2025 17:25:47 - __main__ - INFO - Error in decoding app details request. App id: 1049130
+23-04-2025 17:25:47 - __main__ - INFO - No successful response.1049130 excluded
+23-04-2025 17:25:47 - __main__ - INFO - Error in decoding app details request. App id: 2622000
+23-04-2025 17:25:47 - __main__ - INFO - No successful response.2622000 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 1049140
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.1049140 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 570
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.570 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 1049150
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.1049150 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622020
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622020 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3670600
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3670600 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622030
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622030 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146320
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146320 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 1049170
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.1049170 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622040
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622040 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3670620
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3670620 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622050
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622050 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146340
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146340 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3670630
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3670630 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 620
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.620 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146350
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146350 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622070
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622070 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 630
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.630 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146360
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146360 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622080
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622080 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 1049220
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.1049220 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622100
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622100 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146390
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146390 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622110
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622110 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 3146400
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.3146400 excluded
+23-04-2025 17:25:48 - __main__ - INFO - Error in decoding app details request. App id: 2622120
+23-04-2025 17:25:48 - __main__ - INFO - No successful response.2622120 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146410
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146410 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3670700
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3670700 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146420
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146420 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3670710
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3670710 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049270
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049270 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622140
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622140 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146430
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146430 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049280
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049280 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622150
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622150 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146440
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146440 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049290
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049290 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622160
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622160 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146450
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146450 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622170
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622170 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 730
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.730 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 3146460
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.3146460 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049310
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049310 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622180
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622180 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049320
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049320 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 525036
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.525036 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 525037
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.525037 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 525040
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.525040 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 1049330
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.1049330 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 2622200
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.2622200 excluded
+23-04-2025 17:25:49 - __main__ - INFO - Error in decoding app details request. App id: 525050
+23-04-2025 17:25:49 - __main__ - INFO - No successful response.525050 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 1049340
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.1049340 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 2622210
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.2622210 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146500
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146500 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 1049350
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.1049350 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 2622220
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.2622220 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 525070
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.525070 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146510
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146510 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 1049360
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.1049360 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 2622230
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.2622230 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 525080
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.525080 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146520
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146520 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 1049370
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.1049370 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 2622240
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.2622240 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146530
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146530 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 1049380
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.1049380 excluded
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 525100
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.525100 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:50 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:50 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:50 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146540 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146540
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146540 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 2622260 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 2622260
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.2622260 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 2622260 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 2622260
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.2622260 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 2622260 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 2622260
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.2622260 excluded
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 2622260
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.2622260 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146550 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146550
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146550 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 3146550 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146550
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146550 excluded
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 3146550
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.3146550 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - ERROR - Forbidden to access. Put App ID 1049400 back to deque. Sleep for 5 min.
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:51 - __main__ - INFO - Error in decoding app details request. App id: 1049400
+23-04-2025 17:25:51 - __main__ - INFO - No successful response.1049400 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 2622270 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 2622270
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.2622270 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 2622270 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 2622270
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.2622270 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 2622270 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 2622270
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.2622270 excluded
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 2622270
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.2622270 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:25:52 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:25:52 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:25:52 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:06 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:06 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:06 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:07 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:07 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:07 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:11 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:11 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:11 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:11 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:11 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:11 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:11 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:11 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:11 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:12 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:12 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:12 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:12 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:12 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:12 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:12 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:12 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:12 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:12 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:12 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:12 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:12 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:12 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:12 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:26:13 - __main__ - INFO - Error in decoding app details request. App id: 3146560
+23-04-2025 17:26:13 - __main__ - INFO - No successful response.3146560 excluded
+23-04-2025 17:26:13 - __main__ - ERROR - Forbidden to access. Put App ID 3146560 back to deque. Sleep for 5 min.
+23-04-2025 17:28:45 - __main__ - INFO - Total number of apps on steam: 243402
+23-04-2025 17:28:45 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 17:28:45 - __main__ - ERROR - Forbidden to access. Put App ID 2621440 back to deque. Sleep for 5 min.
+23-04-2025 17:28:50 - __main__ - INFO - Error in decoding app details request. App id: 2621440
+23-04-2025 17:28:50 - __main__ - INFO - No successful response.2621440 excluded
+23-04-2025 17:28:50 - __main__ - ERROR - Forbidden to access. Put App ID 2621440 back to deque. Sleep for 5 min.
+23-04-2025 17:29:14 - __main__ - INFO - Total number of apps on steam: 243418
+23-04-2025 17:29:14 - __main__ - INFO - Checkpoint folder: /home/fahmy/Code/SteamAnalysis/data
+23-04-2025 17:29:15 - __main__ - INFO - Successfully get content of App ID: 2621440
+23-04-2025 17:29:15 - __main__ - INFO - Successfully get content of App ID: 3145730
+23-04-2025 17:29:15 - __main__ - INFO - Successfully get content of App ID: 1048580
+23-04-2025 17:29:16 - __main__ - INFO - Successfully get content of App ID: 2621450
+23-04-2025 17:29:16 - __main__ - INFO - Successfully get content of App ID: 10
+23-04-2025 17:29:16 - __main__ - INFO - Successfully get content of App ID: 3145740
+23-04-2025 17:29:17 - __main__ - INFO - Successfully get content of App ID: 2621460
+23-04-2025 17:29:17 - __main__ - INFO - Successfully get content of App ID: 20
+23-04-2025 17:29:18 - __main__ - INFO - Successfully get content of App ID: 3145750
+23-04-2025 17:29:18 - __main__ - INFO - Successfully get content of App ID: 2621470
+23-04-2025 17:29:18 - __main__ - INFO - Successfully get content of App ID: 30
+23-04-2025 17:29:19 - __main__ - INFO - Successfully get content of App ID: 1048610
+23-04-2025 17:29:19 - __main__ - INFO - Successfully get content of App ID: 40
+23-04-2025 17:29:19 - __main__ - INFO - No successful response.3145770 excluded
+23-04-2025 17:29:20 - __main__ - INFO - Successfully get content of App ID: 50
+23-04-2025 17:29:20 - __main__ - INFO - Successfully get content of App ID: 3145780
+23-04-2025 17:29:20 - __main__ - INFO - Successfully get content of App ID: 1048630
+23-04-2025 17:29:21 - __main__ - INFO - Successfully get content of App ID: 2621500
+23-04-2025 17:29:21 - __main__ - INFO - Successfully get content of App ID: 60
+23-04-2025 17:29:21 - __main__ - INFO - Successfully get content of App ID: 3145790
+23-04-2025 17:29:22 - __main__ - INFO - Successfully get content of App ID: 1048640
+23-04-2025 17:29:22 - __main__ - INFO - Successfully get content of App ID: 2621510
+23-04-2025 17:29:23 - __main__ - INFO - Successfully get content of App ID: 70
+23-04-2025 17:29:23 - __main__ - INFO - Successfully get content of App ID: 3145800
+23-04-2025 17:29:23 - __main__ - INFO - Successfully get content of App ID: 2621520
+23-04-2025 17:29:24 - __main__ - INFO - Successfully get content of App ID: 80
+23-04-2025 17:29:24 - __main__ - INFO - Successfully create app_dict checkpoint: /home/fahmy/Code/SteamAnalysis/data/apps_dict-ckpt-fin.p
+23-04-2025 17:29:24 - __main__ - INFO - Successfully get content of App ID: 3145810
+23-04-2025 17:29:25 - __main__ - INFO - Successfully get content of App ID: 1048660
+23-04-2025 17:29:25 - __main__ - INFO - Successfully get content of App ID: 2621530
+23-04-2025 17:29:26 - __main__ - INFO - Successfully get content of App ID: 1048670
+23-04-2025 17:29:26 - __main__ - INFO - Successfully get content of App ID: 2621540
+23-04-2025 17:29:26 - __main__ - INFO - Successfully get content of App ID: 3145830
+23-04-2025 17:29:27 - __main__ - INFO - Successfully get content of App ID: 3670120
+23-04-2025 17:29:27 - __main__ - INFO - Successfully get content of App ID: 2621550
+23-04-2025 17:29:27 - __main__ - INFO - No successful response.3145840 excluded
+23-04-2025 17:29:28 - __main__ - INFO - Successfully get content of App ID: 1048690
+23-04-2025 17:29:28 - __main__ - INFO - Successfully get content of App ID: 2621560
+23-04-2025 17:29:28 - __main__ - INFO - Successfully get content of App ID: 3145850
+23-04-2025 17:29:29 - __main__ - INFO - Successfully get content of App ID: 2621570
+23-04-2025 17:29:29 - __main__ - INFO - Successfully get content of App ID: 130
+23-04-2025 17:29:30 - __main__ - INFO - Successfully get content of App ID: 3145860
+23-04-2025 17:29:30 - __main__ - INFO - Successfully get content of App ID: 1048710
+23-04-2025 17:29:30 - __main__ - INFO - Successfully get content of App ID: 2621580
+23-04-2025 17:29:31 - __main__ - INFO - Successfully get content of App ID: 3145870
+23-04-2025 17:29:31 - __main__ - INFO - Successfully get content of App ID: 3145880
+23-04-2025 17:29:31 - __main__ - INFO - Successfully get content of App ID: 3145890
+23-04-2025 17:29:32 - __main__ - INFO - Successfully get content of App ID: 1048740
+23-04-2025 17:29:32 - __main__ - INFO - Successfully get content of App ID: 2621610
+23-04-2025 17:29:33 - __main__ - INFO - Successfully get content of App ID: 2621620
+23-04-2025 17:29:33 - __main__ - INFO - No successful response.2621630 excluded
+23-04-2025 17:29:33 - __main__ - INFO - Successfully get content of App ID: 3145920
+23-04-2025 17:29:34 - __main__ - INFO - Successfully get content of App ID: 1048770
+23-04-2025 17:29:34 - __main__ - INFO - Successfully get content of App ID: 2621640
+23-04-2025 17:29:34 - __main__ - INFO - Successfully create app_dict checkpoint: /home/fahmy/Code/SteamAnalysis/data/apps_dict-ckpt-fin.p
+23-04-2025 17:29:35 - __main__ - INFO - Successfully get content of App ID: 3145930
+23-04-2025 17:29:35 - __main__ - INFO - Successfully get content of App ID: 1048780
+23-04-2025 17:29:36 - __main__ - INFO - Successfully get content of App ID: 2621650
+23-04-2025 17:29:36 - __main__ - INFO - Successfully get content of App ID: 3145940
+23-04-2025 17:29:36 - __main__ - INFO - Successfully get content of App ID: 1048790
+23-04-2025 17:29:37 - __main__ - INFO - Successfully get content of App ID: 219
+23-04-2025 17:29:37 - __main__ - INFO - No successful response.2621660 excluded
+23-04-2025 17:29:37 - __main__ - INFO - Successfully get content of App ID: 220
+23-04-2025 17:29:38 - __main__ - INFO - Successfully get content of App ID: 3670240
+23-04-2025 17:29:38 - __main__ - INFO - Successfully get content of App ID: 2621670
+23-04-2025 17:29:38 - __main__ - INFO - Successfully get content of App ID: 3145960
+23-04-2025 17:29:39 - __main__ - INFO - Successfully get content of App ID: 2621680
+23-04-2025 17:29:39 - __main__ - INFO - Successfully get content of App ID: 240
+23-04-2025 17:29:40 - __main__ - INFO - No successful response.3145970 excluded
+23-04-2025 17:29:40 - __main__ - INFO - Successfully get content of App ID: 3670260
+23-04-2025 17:29:40 - __main__ - INFO - Successfully get content of App ID: 2621690
+23-04-2025 17:29:41 - __main__ - INFO - Successfully get content of App ID: 3145980
+23-04-2025 17:29:41 - __main__ - INFO - Successfully get content of App ID: 3670270
+23-04-2025 17:29:41 - __main__ - INFO - Successfully get content of App ID: 1048830
+23-04-2025 17:29:42 - __main__ - INFO - No successful response.2621700 excluded
+23-04-2025 17:29:42 - __main__ - INFO - No successful response.3145990 excluded
+23-04-2025 17:29:42 - __main__ - INFO - Successfully get content of App ID: 1048840
+23-04-2025 17:29:43 - __main__ - INFO - Successfully get content of App ID: 3670280
+23-04-2025 17:29:43 - __main__ - INFO - Successfully get content of App ID: 2621710
