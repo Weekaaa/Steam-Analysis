@@ -5,16 +5,16 @@ import logging
 
 
 # Boilerplate function to Configure logging
-def setup_logging(project_root_path):
+def setup_logging(log_dir):
         # Logger Usage
         # logger = setup_logging()
         # logger.error("This is an error message")
         ## logger.warning("This is a warning")
         # logger.info("This is informational")
 
-    log_dir = project_root_path / "logs" # Log directory at the root of the project
-    Path(log_dir).mkdir(exist_ok=True)
-    
+    if not log_dir.exists():
+        log_dir.mkdir(parents=True)
+
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)  # Capture all levels
     

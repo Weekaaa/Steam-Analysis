@@ -3,15 +3,23 @@ import pickle
 from pathlib import Path
 
 
-def saveCheckpoint(apps_dict, data_folder, logger):
+def saveCheckpoint(apps_dict, excluded_apps_list, data_folder, logger):
 
+    # Path of the pickle file that stors the Game data as a dictionary
     save_path = data_folder.joinpath(
-        'apps_dict' + f'-ckpt-fin.p'
+        'apps_dict' + f'-checkpoint.p'
     ).resolve()
 
+    # Path of the pickle file that will store AppIDs that couldn't be added (error or don't exist)
+    save_path2 = data_folder.joinpath(
+        'excluded_dict' + f'checkpoint.p'
+    ).resolve()
+    
     savePickle(save_path, apps_dict)
     logger.info(f'Successfully create app_dict checkpoint: {save_path}')
-    print()
+
+    savePickle(save_path2, excluded_apps_list)
+    logger.info(f"Successfully create excluded apps checkpoint: {save_path2}")
 
 
 def loadPickle(path_to_load:Path) -> dict:
@@ -30,28 +38,28 @@ def checkLatestCheckpoints(data_folder):
     all_pkl_files = []
 
     # get all pickle files in the data folder
-    
     for root, _, files in os.walk(data_folder):
         for file in files:
             full_path = Path(root, file)
 
             # add only files that end with .p to the list
-            if full_path.suffix == '.p':
-                all_pkl_files.append(full_path)
+            if full_path.suffix != '.p':
+                continue
+            all_pkl_files.append(full_path)
+            
+            
+            if 'apps_dict' in full_path.name: 
+                apps_dict_ckpt_file = full_path
+
+            elif 'excluded_list' in full_path.name:
+                excluded_apps_list_file = full_path
         break
-    print(
-        "\n\n\n",
-        all_pkl_files,
-        "\n\n\n",
-            )
 
-    # create a list to store all the checkpoint files
-    # then sort them
-    # the latest checkpoint file for each of the object is the last element in each of the lists
-    apps_dict_ckpt_files = [f for f in all_pkl_files if 'apps_dict' in f.name and "ckpt" in f.name]
+    # Check if they exist, if not, set them to None, otherwise, return them
+    if 'apps_dict_ckpt_file' not in locals():
+        apps_dict_ckpt_file = None
 
-    apps_dict_ckpt_files.sort()
+    if 'excluded_apps_list_file' not in locals():
+        excluded_apps_list_file = None
 
-    latest_checkpoint_file = apps_dict_ckpt_files[-1] if apps_dict_ckpt_files else None
-
-    return latest_checkpoint_file
+    return apps_dict_ckpt_file, excluded_apps_list_file
