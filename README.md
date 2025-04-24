@@ -7,15 +7,16 @@ Current File Tree
 ├── docs
 │   ├── get-app-details_response_json_format.json
 │   ├── log.md
-│   └── main.md
+│   ├── main.md
+│   ├── progress.md
+│   └── steam_api_requests.md
 ├── logs
-│   └── steam_api.log
 ├── README.md
 ├── requirements.txt
 └── src
-    ├── checkpoints.py
     ├── log.py
     ├── main.py
+    ├── progress.py
     ├── __pycache__
     └── steam_api_requests.py
 ```
