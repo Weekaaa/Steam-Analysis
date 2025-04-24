@@ -60,7 +60,7 @@ def init():
     
 
     data_folder = project_root_path / "data"
-    log_folder = project_root_path / "log"
+    log_folder = project_root_path / "logs"
 
 
     # Create logger
@@ -83,7 +83,6 @@ def restore_progress(data_folder, logger):
     all_app_ids = requestSteamAppsIDs() # returns a list of IDs of All Games
     last_checkpoint_path, last_excluded_apps_list_path = checkLatestCheckpoints(data_folder)
 
-    # load previous progress if available
     if last_checkpoint_path:
         apps_dict = loadPickle(last_checkpoint_path)
         logger.info('Successfully load apps_dict checkpoint:', last_checkpoint_path)
