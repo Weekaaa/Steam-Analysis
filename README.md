@@ -3,18 +3,13 @@
 Current File Tree
 ```
 ├── data
-├── docs
-│   ├── get-app-details_response_json_format.json
-│   └── main.md
+│   ├── apps_dict-chpkt.p   # ignored by git
+│   └── sample.txt          # ignored by git
 ├── logs
 │   └── steam_api.log
 ├── README.md
 ├── requirements.txt
 └── src
-    ├── checkpoints.py
-    ├── log.py
-    ├── main.py
-    ├── __pycache__
     └── steam_api_requests.py
 ```
 
