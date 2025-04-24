@@ -20,7 +20,7 @@ def requestSteamAppsIDs(logger):
     try:
         data = req.json()
     except Exception:
-        # Print info about the last 5 stack traces
+        # Print info about the last 5 call stack traces
         traceback.print_exc(limit=5)
         return {}
     

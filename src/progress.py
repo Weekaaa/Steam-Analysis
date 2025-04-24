@@ -22,7 +22,7 @@ def saveProgress(apps_dict, excluded_apps_list, data_folder, logger):
     logger.info(f"Successfully create excluded apps progress: {save_path2}")
 
 
-def loadPickle(path_to_load:Path) -> dict:
+def loadPickle(path_to_load:Path):
     obj = pickle.load(open(path_to_load, "rb"))
     return obj
 

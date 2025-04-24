@@ -7,7 +7,7 @@ from pathlib import Path
 from collections import deque
 
 import log
-from checkpoints import checkLatestCheckpoints, saveCheckpoint, loadPickle
+from progress import checkLatestProgress, saveProgress, loadPickle
 from steam_api_requests import requestSteamAppsIDs
 
 
@@ -38,7 +38,7 @@ def restore_progress(data_folder, logger):
 
 
     all_app_ids = requestSteamAppsIDs(logger) # returns a list of IDs of All Games
-    last_checkpoint_path, last_excluded_apps_list_path = checkLatestCheckpoints(data_folder)
+    last_checkpoint_path, last_excluded_apps_list_path = checkLatestProgress(data_folder)
 
     if last_checkpoint_path:
         apps_dict = loadPickle(last_checkpoint_path)
@@ -68,6 +68,7 @@ def restore_progress(data_folder, logger):
 def main():
 
     # ========== INITIALIZATION ==========
+
     data_folder, logger = init()
 
     apps_dict, excluced_appid_list, apps_remaining_deque = restore_progress(data_folder, logger)
@@ -118,7 +119,7 @@ def main():
         except Exception:
             logger.info(f"Error in decoding app details request. App id: {appid}")
 
-            # Print last 5 stack traces (look it up...)
+            # Print last 5 call stack traces (look it up...)
             traceback.print_exc(limit=5)
             appdetails = {'success':False}
         # not success -> the game does not exist anymore
@@ -146,11 +147,11 @@ def main():
         # if i >= 2500:
         if i >= 25: # 25 for testing
 
-            saveCheckpoint(apps_dict, excluced_appid_list, data_folder, logger)
+            saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
             i = 0
 
-    # save checkpoints at the end
-    saveCheckpoint(apps_dict, excluced_appid_list, data_folder, logger)
+    # save progress at the end
+    saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
 
     logger.info(f"Total number of valid apps: {len(apps_dict)}")
     logger.info('Successful run. Program Terminates.')
