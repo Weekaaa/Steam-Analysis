@@ -1,0 +1,172 @@
+        "data": {
+            "type": String,  // game / dlc / server
+            "name": String,
+            "steam_appid": int,
+            "required_age": int,
+            "is_free": bool,
+            "dlc": [
+                int,
+                int
+            ],
+            "detailed_description": String,
+            "about_the_game": String,
+            "short_description": String,
+            "supported_languages": String,
+            "header_image": String,   // URL
+            "website": String,   // URL
+            "pc_requirements": {
+                "minimum": String,
+                "recommended": String,
+            },
+            "mac_requirements": {
+                "minimum": String,
+            },
+            "linux_requirements": {
+                "minimum": String,
+            },
+            "developers": [
+                String,
+                String
+            ],
+            "publishers": [
+                String,
+                String
+            ],
+            "packages": [
+                int,
+                int
+            ],
+            "package_groups": [
+                {
+                    "name": String,
+                    "title": String,
+                    "description": String,
+                    "selection_text": String,
+                    "save_text": String,
+                    "display_type": int,
+                    "is_recurring_subscription": bool,
+                    "subs": [
+                        {
+                            "packageid": int,
+                            "percent_savings_text": String,
+                            "percent_savings": int,
+                            "option_text": String,
+                            "option_description": String,
+                            "can_get_free_license": "0",
+                            "is_free_license": bool,
+                            "price_in_cents_with_discount": int
+                        },
+                        {
+                            "packageid": int,
+                            "percent_savings_text": String,
+                            "percent_savings": int,
+                            "option_text": String,
+                            "option_description": String,
+                            "can_get_free_license": "0",
+                            "is_free_license": bool,
+                            "price_in_cents_with_discount": int
+                        }
+                    ]
+                }
+            ],
+            "platforms": {
+                "windows": bool,
+                "mac": bool,
+                "linux": bool
+            },
+            "metacritic": {
+                "score": int,
+                "url": String
+            },
+            "categories": [
+                {
+                    "id": int,
+                    "description": String
+                },
+                {
+                    "id": int,
+                    "description": String
+                },
+                .
+                .
+                .
+            ],
+            "genres": [
+                {
+                    "id": int,
+                    "description": String
+                },
+                {
+                    "id": int,
+                    "description": String
+                },
+                .
+                .
+                .
+            ],
+            "screenshots": [
+                {
+                    "id": int,                  // index
+                    "path_thumbnail": String,   // URL
+                    "path_full": String         // URL
+                },
+                .
+                .
+                .
+            ],
+            "movies": [
+                {
+                    "id": int,
+                    "name": String,
+                    "thumbnail": String,
+                    "webm": {
+                        "480": String,
+                        "max": String
+                    },
+                    "mp4": {
+                        "480": String,
+                        "max": String:
+                    },
+                    "highlight": bool
+                },
+                .
+                .
+                .
+                
+            ],
+            "recommendations": {
+                "total": int
+            },
+            "achievements": {
+                "total": int,
+                "highlighted": [
+                    {
+                        "name": String,
+                        "path": String
+                    },
+                    .
+                    .
+                    .
+                ]
+            },
+            "release_date": {
+                "coming_soon": bool,
+                "date": String  // ddd MMM yyyy
+            },
+            "support_info": {
+                "url": String,
+                "email": String 
+            },
+            "background": String ,
+            "content_descriptors": {
+                "ids": [
+                    int,
+                    int 
+                ],
+                "notes": String
+            }
+        },
+        {
+        // Game 2
+        },
+        ...
