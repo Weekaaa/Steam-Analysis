@@ -3,23 +3,23 @@ import pickle
 from pathlib import Path
 
 
-def saveCheckpoint(apps_dict, excluded_apps_list, data_folder, logger):
+def saveProgress(apps_dict, excluded_apps_list, data_folder, logger):
 
     # Path of the pickle file that stors the Game data as a dictionary
     save_path = data_folder.joinpath(
-        'apps_dict' + f'-checkpoint.p'
+        'apps_dict' + f'-progress.p'
     ).resolve()
 
     # Path of the pickle file that will store AppIDs that couldn't be added (error or don't exist)
     save_path2 = data_folder.joinpath(
-        'excluded_dict' + f'checkpoint.p'
+        'excluded_dict' + f'progress.p'
     ).resolve()
     
     savePickle(save_path, apps_dict)
-    logger.info(f'Successfully create app_dict checkpoint: {save_path}')
+    logger.info(f'Successfully create app_dict progress: {save_path}')
 
     savePickle(save_path2, excluded_apps_list)
-    logger.info(f"Successfully create excluded apps checkpoint: {save_path2}")
+    logger.info(f"Successfully create excluded apps progress: {save_path2}")
 
 
 def loadPickle(path_to_load:Path) -> dict:
@@ -33,7 +33,7 @@ def savePickle(path_to_save:Path, obj):
 
 
 
-def checkLatestCheckpoints(data_folder):
+def checkLatestProgress(data_folder):
     # app_dict
     all_pkl_files = []
 

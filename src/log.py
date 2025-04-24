@@ -15,6 +15,7 @@ def setup_logging(log_dir):
         log_dir.mkdir(parents=True)
 
     logger = logging.getLogger(__name__)
+    logger.setLevel(logging.DEBUG)  # Capture all levels
     
     # Formatting
     formatter = logging.Formatter(
