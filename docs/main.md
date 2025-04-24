@@ -1,5 +1,5 @@
-# Description
-This is the documentation for the main.py file.
+# description
+this is the documentation for the main.py file.
 
 # Init Funciton
 This function initializes the program by

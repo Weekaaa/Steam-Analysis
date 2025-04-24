@@ -1,5 +1,4 @@
 import sys
-from pathlib import Path
 import logging
 
 
@@ -16,7 +15,6 @@ def setup_logging(log_dir):
         log_dir.mkdir(parents=True)
 
     logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)  # Capture all levels
     
     # Formatting
     formatter = logging.Formatter(
@@ -24,7 +22,7 @@ def setup_logging(log_dir):
         datefmt='%d-%m-%Y %H:%M:%S'
     )
     
-    # Console (stderr) handler
+    # Console (stderr) handler (print to stderr)
     console_handler = logging.StreamHandler(sys.stderr)
     # console_handler.setLevel(logging.WARNING)  # We won't need warnings
     console_handler.setFormatter(formatter)
