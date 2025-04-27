@@ -3,7 +3,10 @@ import pickle
 from pathlib import Path
 
 
-def saveProgress(apps_dict, excluded_apps_list, data_folder, logger):
+def saveProgress(global_vars):
+
+    data_folder = global_vars.data_folder
+    logger = global_vars.logger
 
     # Path of the pickle file that stors the Game data as a dictionary
     save_path = data_folder.joinpath(
@@ -15,10 +18,10 @@ def saveProgress(apps_dict, excluded_apps_list, data_folder, logger):
         'excluded_dict' + f'progress.p'
     ).resolve()
     
-    savePickle(save_path, apps_dict)
+    savePickle(save_path, global_vars.apps_dict)
     logger.info(f'Successfully create app_dict progress: {save_path}')
 
-    savePickle(save_path2, excluded_apps_list)
+    savePickle(save_path2, global_vars.excluded_appid_list)
     logger.info(f"Successfully create excluded apps progress: {save_path2}")
 
 

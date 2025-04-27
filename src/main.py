@@ -1,14 +1,22 @@
-import traceback
+from logging import Logger
 import os
-import time
-import json
-import requests
 from pathlib import Path
 from collections import deque
 
 import log
 from progress import checkLatestProgress, saveProgress, loadPickle
-from steam_api_requests import requestSteamAppsIDs
+from steam_api_requests import requestSteamAppsIDs, handleSteamApiResponse
+
+
+# Yarab fok el di2a
+class GlobalVars: 
+    # Singleton that holds data about the program
+    data_folder : Path
+    logger : Logger
+    apps_dict: dict
+    excluded_appid_list: list
+    apps_remaining_deque : deque
+
 
 
 def init():
@@ -28,13 +36,21 @@ def init():
 
 
     logger.info("Started Steam scraper process", os.getpid())
-    return data_folder, logger
+
+    global_vars = GlobalVars()
+    global_vars.data_folder = data_folder
+    global_vars.logger = logger
+
+    return global_vars
 
 
-def restore_progress(data_folder, logger):
+# Restores the state of the last run and sets the appropriate values in the global_vars class object
+def restore_progress(global_vars: GlobalVars):
     apps_dict = {} 
     excluded_appid_list = []
 
+    logger = global_vars.logger
+    data_folder = global_vars.data_folder
 
     all_app_ids = requestSteamAppsIDs(logger) # returns a list of IDs of All Games
     last_checkpoint_path, last_excluded_apps_list_path = checkLatestProgress(data_folder)
@@ -58,7 +74,10 @@ def restore_progress(data_folder, logger):
     # first get remaining apps
     apps_remaining_deque = deque(set(all_app_ids))
 
-    return apps_dict, excluded_appid_list, apps_remaining_deque
+
+    global_vars.apps_dict               =   apps_dict
+    global_vars.excluded_appid_list     =   excluded_appid_list
+    global_vars.apps_remaining_deque    =   apps_remaining_deque
 
 
 
@@ -67,89 +86,30 @@ def restore_progress(data_folder, logger):
 def main():
 
     # ========== INITIALIZATION ==========
+    global_vars = init()
 
-    data_folder, logger = init()
+    logger = global_vars.logger
 
-    apps_dict, excluced_appid_list, apps_remaining_deque = restore_progress(data_folder, logger)
+    restore_progress(global_vars)
 
-    logger.info(f'Number of remaining apps: {len(apps_remaining_deque)}')
-
-    # Temporary File To Get a sample of the Data and it's structure
-    # fd  = open(data_folder / 'data.json', 'w+') 
-
-    fd = open(data_folder / 'data.json', 'w', encoding='utf-8')
-    fd.write('[')
+    logger.info(f'Number of remaining apps: {len(global_vars.apps_remaining_deque)}')
 
     # ====================================
+
+    # This beautiful function sends a get request, handles each error and updates the apps_dict and apps_remaining_deque
+    # It runs in the main thread
+    handleSteamApiResponse(global_vars)
+
+
     
-
-    i = 0
-    while len(apps_remaining_deque) > 0:
-        appid = apps_remaining_deque.popleft()
-
-        # test whether the game exists or not
-        # by making request to get the details of the app
-        try:
-            appdetails_req = requests.get(f"https://store.steampowered.com/api/appdetails?appids={appid}")
-
-            # Game Exists
-            match appdetails_req.status_code:
-                # all good
-                case 200: 
-                    appdetails = appdetails_req.json()
-                    appdetails = appdetails[str(appid)]
-
-            # Too Many Requests, pause for a while
-                case 429:
-                    logger.error(f'Too many requests. Put App ID {appid} back to deque. Sleep for 10 sec')
-                    apps_remaining_deque.appendleft(appid)
-                    time.sleep(10)
-                    continue
-
-
-            # Access blocked, wait a while
-                case 403:
-                    logger.error(f'Forbidden to access. Put App ID {appid} back to deque. Sleep for 5 min.')
-                    apps_remaining_deque.appendleft(appid)
-                    time.sleep(5 * 60)
-                    continue
-
-                case _ :
-                    continue
-                
-        # This runs if the status code is 200
-        except Exception:
-            logger.info(f"Error in decoding app details request. App id: {appid}")
-            traceback.print_exc(limit=5) # Print last 5 call stack traces (look it up...)
-            appdetails = {'success':False} # not success -> the game does not exist anymore
-
-
-        # add the app id to excluded app id list
-        if appdetails['success'] == False:
-            excluced_appid_list.append(appid)
-            logger.info(f'No successful response. Add App ID: {appid} to excluded apps list')
-            continue
-
-        appdetails_data = appdetails['data'] # Access the data table in the Json Response
-        appdetails_data['appid'] = appid
-        apps_dict[appid] = appdetails_data
-        logger.info(f"Successfully get content of App ID: {appid}")
-
-
-        i += 1
-        # for each 2500, save a checkpoint
-        if i >= 2500:
-        # if i >= 25: # 25 for testing
-            saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
-            i = 0
 
     
     # ====================
 
     # save progress at the end
-    saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
+    saveProgress(global_vars)
 
-    logger.info(f"Total number of valid apps: {len(apps_dict)}")
+    logger.info(f"Total number of valid apps: {len(global_vars.apps_dict)}")
     logger.info('Successful run. Program Terminates.')
 
 if __name__ == '__main__':
