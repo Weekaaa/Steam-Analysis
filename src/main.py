@@ -13,7 +13,6 @@ from steam_api_requests import requestSteamAppsIDs
 
 def init():
     project_root_path = Path(__file__).parent.parent # Root Directory of the Project
-
     
 
     data_folder = project_root_path / "data"
@@ -94,61 +93,58 @@ def main():
             appdetails_req = requests.get(f"https://store.steampowered.com/api/appdetails?appids={appid}")
 
             # Game Exists
-            if appdetails_req.status_code == 200:
-                appdetails = appdetails_req.json()
-                appdetails = appdetails[str(appid)]
+            match appdetails_req.status_code:
+                # all good
+                case 200: 
+                    appdetails = appdetails_req.json()
+                    appdetails = appdetails[str(appid)]
 
             # Too Many Requests, pause for a while
-            elif appdetails_req.status_code == 429:
-                logger.error(f'Too many requests. Put App ID {appid} back to deque. Sleep for 10 sec')
-                apps_remaining_deque.appendleft(appid)
-                time.sleep(10)
-                continue
+                case 429:
+                    logger.error(f'Too many requests. Put App ID {appid} back to deque. Sleep for 10 sec')
+                    apps_remaining_deque.appendleft(appid)
+                    time.sleep(10)
+                    continue
 
 
             # Access blocked, wait a while
-            elif appdetails_req.status_code == 403:
-                logger.error(f'Forbidden to access. Put App ID {appid} back to deque. Sleep for 5 min.')
-                apps_remaining_deque.appendleft(appid)
-                time.sleep(5 * 60)
-                continue
+                case 403:
+                    logger.error(f'Forbidden to access. Put App ID {appid} back to deque. Sleep for 5 min.')
+                    apps_remaining_deque.appendleft(appid)
+                    time.sleep(5 * 60)
+                    continue
 
-            else:
-                continue
+                case _ :
+                    continue
                 
+        # This runs if the status code is 200
         except Exception:
             logger.info(f"Error in decoding app details request. App id: {appid}")
+            traceback.print_exc(limit=5) # Print last 5 call stack traces (look it up...)
+            appdetails = {'success':False} # not success -> the game does not exist anymore
 
-            # Print last 5 call stack traces (look it up...)
-            traceback.print_exc(limit=5)
-            appdetails = {'success':False}
-        # not success -> the game does not exist anymore
+
         # add the app id to excluded app id list
         if appdetails['success'] == False:
             excluced_appid_list.append(appid)
             logger.info(f'No successful response. Add App ID: {appid} to excluded apps list')
             continue
 
-        appdetails_data = appdetails['data']
-        
-
-        appdetails_data['appid'] = appid     
-
-
+        appdetails_data = appdetails['data'] # Access the data table in the Json Response
+        appdetails_data['appid'] = appid
         apps_dict[appid] = appdetails_data
-
-        json.dump(appdetails_data, fd, ensure_ascii=False)
-        fd.write(',')
-
         logger.info(f"Successfully get content of App ID: {appid}")
+
 
         i += 1
         # for each 2500, save a checkpoint
-        # if i >= 2500:
-        if i >= 25: # 25 for testing
-
+        if i >= 2500:
+        # if i >= 25: # 25 for testing
             saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
             i = 0
+
+    
+    # ====================
 
     # save progress at the end
     saveProgress(apps_dict, excluced_appid_list, data_folder, logger)
