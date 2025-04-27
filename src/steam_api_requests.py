@@ -103,7 +103,7 @@ def handleSteamApiResponse(global_vars):
             continue
 
         appdetails_data = appdetails['data'] # Access the data table in the Json Response
-        appdetails_data['appid'] = appid
+        appdetails_data['appid'] = appid # Add appid field
         global_vars.apps_dict[appid] = appdetails_data
         logger.info(f"Successfully get content of App ID: {appid}")
 

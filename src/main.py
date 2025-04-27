@@ -1,11 +1,13 @@
 from logging import Logger
-import os
 from pathlib import Path
 from collections import deque
+import threading
 
 import log
 from progress import checkLatestProgress, saveProgress, loadPickle
 from steam_api_requests import requestSteamAppsIDs, handleSteamApiResponse
+from spy_api import spyApiRequest
+
 
 
 # Yarab fok el di2a
@@ -16,6 +18,7 @@ class GlobalVars:
     apps_dict: dict
     excluded_appid_list: list
     apps_remaining_deque : deque
+    steamspy_dict: dict
 
 
 
@@ -35,7 +38,7 @@ def init():
         logger.info(f"Created {data_folder}")
 
 
-    logger.info("Started Steam scraper process", os.getpid())
+    logger.info("Started Steam scraper")
 
     global_vars = GlobalVars()
     global_vars.data_folder = data_folder
@@ -48,23 +51,27 @@ def init():
 def restore_progress(global_vars: GlobalVars):
     apps_dict = {} 
     excluded_appid_list = []
+    steamspy_dict = {}
 
     logger = global_vars.logger
-    data_folder = global_vars.data_folder
 
     all_app_ids = requestSteamAppsIDs(logger) # returns a list of IDs of All Games
-    last_checkpoint_path, last_excluded_apps_list_path = checkLatestProgress(data_folder)
+    last_checkpoint_path, last_excluded_apps_list_path, steam_spy_save_path = checkLatestProgress(global_vars.data_folder)
 
     if last_checkpoint_path:
         apps_dict = loadPickle(last_checkpoint_path)
-        logger.info('Successfully load apps_dict checkpoint:', last_checkpoint_path)
+        logger.info(f'Successfully load apps_dict checkpoint:{str(last_checkpoint_path)}')
         logger.info(f'Number of apps in apps_dict: {len(apps_dict)}')
 
     if last_excluded_apps_list_path:
         excluded_appid_list = loadPickle(last_excluded_apps_list_path)
-        logger.info('Successfully load apps_dict checkpoint:', last_checkpoint_path)
-        logger.info(f'Number of apps in apps_dict: {len(apps_dict)}')
+        logger.info(f'Successfully load excluded_appid_list checkpoint:{str(last_checkpoint_path)}')
+        logger.info(f'Number of apps in excluded_appid_list: {len(excluded_appid_list)}')
     
+    if steam_spy_save_path:
+        steamspy_dict = loadPickle(steam_spy_save_path)
+        logger.info(f'Successfully load SteamSpy checkpoint: {str(last_checkpoint_path)}')
+        logger.info(f'Number of Pages in SteamSpy dict {len(steamspy_dict)}')
 
     # remove app_ids that already scrapped or excluded or error
     all_app_ids = set(all_app_ids) \
@@ -78,6 +85,7 @@ def restore_progress(global_vars: GlobalVars):
     global_vars.apps_dict               =   apps_dict
     global_vars.excluded_appid_list     =   excluded_appid_list
     global_vars.apps_remaining_deque    =   apps_remaining_deque
+    global_vars.steamspy_dict           =   steamspy_dict 
 
 
 
@@ -98,11 +106,13 @@ def main():
 
     # This beautiful function sends a get request, handles each error and updates the apps_dict and apps_remaining_deque
     # It runs in the main thread
+
+    t1 = threading.Thread(target=spyApiRequest, args=(global_vars,))
+    t1.start()
+    
     handleSteamApiResponse(global_vars)
 
-
-    
-
+    t1.join()
     
     # ====================
 

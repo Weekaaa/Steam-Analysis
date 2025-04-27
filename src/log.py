@@ -21,7 +21,7 @@ def setup_logging(log_dir):
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         datefmt='%d-%m-%Y %H:%M:%S'
-    )
+        )
     
     # Console (stderr) handler (print to stderr)
     console_handler = logging.StreamHandler(sys.stderr)
@@ -30,7 +30,7 @@ def setup_logging(log_dir):
     
     # File handler
     file_handler = logging.FileHandler(f"{log_dir}/steam_api.log")
-    file_handler.setLevel(logging.DEBUG)  # All levels to file
+    # file_handler.setLevel(logging.DEBUG)  # All levels to file
     file_handler.setFormatter(formatter)
     
     logger.addHandler(console_handler)

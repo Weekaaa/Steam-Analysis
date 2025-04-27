@@ -8,7 +8,7 @@ def saveProgress(global_vars):
     data_folder = global_vars.data_folder
     logger = global_vars.logger
 
-    # Path of the pickle file that stors the Game data as a dictionary
+    # Path of the pickle file that stores the Game data as a dictionary
     save_path = data_folder.joinpath(
         'apps_dict' + f'-progress.p'
     ).resolve()
@@ -18,12 +18,19 @@ def saveProgress(global_vars):
         'excluded_dict' + f'progress.p'
     ).resolve()
     
+    # Path of the pickle file that stores SteamSpyAPI Data
+    steam_spy_save_path = data_folder.joinpath(
+        'SteamSpy' + f'-progress.p'
+    ).resolve()
+
     savePickle(save_path, global_vars.apps_dict)
     logger.info(f'Successfully create app_dict progress: {save_path}')
 
     savePickle(save_path2, global_vars.excluded_appid_list)
     logger.info(f"Successfully create excluded apps progress: {save_path2}")
 
+    savePickle(steam_spy_save_path, global_vars.steamspy_dict)
+    logger.info(f"Successfully create steamspy_dict progress: {steam_spy_save_path}")
 
 def loadPickle(path_to_load:Path):
     obj = pickle.load(open(path_to_load, "rb"))
@@ -56,6 +63,8 @@ def checkLatestProgress(data_folder):
 
             elif 'excluded_list' in full_path.name:
                 excluded_apps_list_file = full_path
+            elif 'SteamSpy' in full_path.name:
+                steam_spy_save_path = full_path
         break
 
     # Check if they exist, if not, set them to None, otherwise, return them
@@ -65,4 +74,7 @@ def checkLatestProgress(data_folder):
     if 'excluded_apps_list_file' not in locals():
         excluded_apps_list_file = None
 
-    return apps_dict_ckpt_file, excluded_apps_list_file
+    if 'steam_spy_save_path' not in locals():
+        steam_spy_save_path = None
+
+    return apps_dict_ckpt_file, excluded_apps_list_file, steam_spy_save_path
