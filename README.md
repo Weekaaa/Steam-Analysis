@@ -3,6 +3,7 @@
 Current File Tree
 ```
 .
+├── convert_pickle_to_json.py
 ├── data
 ├── docs
 │   ├── get-app-details_response_json_format.json
@@ -18,6 +19,7 @@ Current File Tree
     ├── main.py
     ├── progress.py
     ├── __pycache__
+    ├── spy_api.py
     └── steam_api_requests.py
 ```
 
@@ -29,6 +31,9 @@ This program is meant to:
 
 # Documentation
 Functions and files are thuroughly documented and can be found in the [docs directory](https://github.com/Weekaaa/Steam-Analysis/tree/main/docs).
+
+# Author's Note
+This project doesn't follow all [clean code practices](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) since the point is to not have any unecessary abstraction, the goal is to create understandable code that an outsider can look at and understand. If something is repeated twice in the code, that's fine.
 
 # External Sources
 ## Inspiration
