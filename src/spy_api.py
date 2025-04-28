@@ -47,8 +47,8 @@ def spyApiRequest(global_vars):
         global_vars.steamspy_dict[page] = data
         logger.info(f"Successfully get content of Page: {page}, from StamSpy API")
 
-        if page % 5 == 0:
-            saveProgress(global_vars)
+        # if page % 5 == 0: # Progress is saved every 2500 requests by the gamedata api, no need to save again
+        #     saveProgress(global_vars)
         page += 1
 
         time.sleep(2) # Max poll rate is 1 per second
