@@ -2,7 +2,7 @@ import traceback
 import requests
 import time
 from progress import saveProgress
-# from main import GlobalVars
+from scrape import scrapeTags
 
 
 
@@ -64,6 +64,9 @@ def handleSteamApiResponse(global_vars):
         try:
             appdetails_req = requests.get(f"https://store.steampowered.com/api/appdetails?appids={appid}")
 
+            # Get the tag using webscraping
+            tags = scrapeTags(appid, global_vars)
+
 
             match appdetails_req.status_code:
             # all good
@@ -102,8 +105,9 @@ def handleSteamApiResponse(global_vars):
             logger.info(f'No successful response. Add App ID: {appid} to excluded apps list')
             continue
 
-        appdetails_data = appdetails['data'] # Access the data table in the Json Response
-        appdetails_data['appid'] = appid # Add appid field
+        appdetails_data = appdetails['data']    # Access the data table in the Json Response
+        appdetails_data['appid'] =  appid       # Add appid field
+        appdetails_data['tags']  =  tags        # Add tags field
         global_vars.apps_dict[appid] = appdetails_data
         logger.info(f"Successfully get content of App ID: {appid}")
 
