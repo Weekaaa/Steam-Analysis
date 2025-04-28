@@ -18,7 +18,7 @@ Current File Tree
     ├── log.py
     ├── main.py
     ├── progress.py
-    ├── __pycache__
+    ├── scrape.py
     ├── spy_api.py
     └── steam_api_requests.py
 ```
