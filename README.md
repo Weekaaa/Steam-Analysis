@@ -32,6 +32,11 @@ This program is meant to:
 # Documentation
 Functions and files are thuroughly documented and can be found in the [docs directory](https://github.com/Weekaaa/Steam-Analysis/tree/main/docs).
 
+## API Docs
+- [SteamAPI](https://partner.steamgames.com/doc/webapi/ISteamApps)
+- [SteamAppDetails API](https://github.com/Revadike/InternalSteamWebAPI/wiki/Get-App-Details)
+- [SteamSpy Api](https://steamspy.com/api.php)
+
 # Author's Note
 This project doesn't follow all [clean code practices](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) since the point is to not have any unecessary abstraction, the goal is to create understandable code that an outsider can look at and understand. If something is repeated twice in the code, that's fine.
 
