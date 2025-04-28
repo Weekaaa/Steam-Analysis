@@ -106,6 +106,12 @@ def handleSteamApiResponse(global_vars):
             continue
 
         appdetails_data = appdetails['data']    # Access the data table in the Json Response
+
+        if appdetails_data['type'] != 'game':   # Check if the app is a game or not
+            global_vars.excluded_appid_list.append(appid)
+            logger.info(f'Not a game. Add App ID: {appid} to excluded apps list')
+            continue
+
         appdetails_data['appid'] =  appid       # Add appid field
         appdetails_data['tags']  =  tags        # Add tags field
         global_vars.apps_dict[appid] = appdetails_data
